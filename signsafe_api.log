@@ -1,0 +1,1841 @@
+2025-06-23 04:42:23,142 - app.main - INFO - Starting SignSafe API...
+2025-06-23 04:42:23,143 - app.main - INFO - Model path: data/models/signsafe_model.h5
+2025-06-23 04:42:23,147 - app.main - INFO - Labels path: data/labels/class_labels.json
+2025-06-23 04:42:23,147 - app.main - WARNING - ⚠️  Model or labels file not found. API will start but predictions will fail.
+2025-06-23 04:42:23,147 - app.main - WARNING - Model exists: True
+2025-06-23 04:42:23,147 - app.main - WARNING - Labels exist: False
+2025-06-23 04:42:23,148 - app.main - INFO - SignSafe API startup complete
+2025-06-23 04:42:40,821 - app.main - INFO - Shutting down SignSafe API...
+2025-06-23 04:42:44,797 - app.main - INFO - Starting SignSafe API...
+2025-06-23 04:42:44,798 - app.main - INFO - Model path: data/models/signsafe_model.h5
+2025-06-23 04:42:44,798 - app.main - INFO - Labels path: data/labels/class_labels.json
+2025-06-23 04:42:44,798 - app.main - WARNING - ⚠️  Model or labels file not found. API will start but predictions will fail.
+2025-06-23 04:42:44,799 - app.main - WARNING - Model exists: True
+2025-06-23 04:42:44,799 - app.main - WARNING - Labels exist: False
+2025-06-23 04:42:44,799 - app.main - INFO - SignSafe API startup complete
+2025-06-23 04:45:29,621 - app.main - INFO - Shutting down SignSafe API...
+2025-06-23 04:45:35,750 - app.main - INFO - Starting SignSafe API...
+2025-06-23 04:45:35,750 - app.main - INFO - Model path: data/models/signsafe_model.h5
+2025-06-23 04:45:35,751 - app.main - INFO - Labels path: data/labels/class_labels.json
+2025-06-23 04:45:35,751 - app.main - WARNING - ⚠️  Model or labels file not found. API will start but predictions will fail.
+2025-06-23 04:45:35,751 - app.main - WARNING - Model exists: True
+2025-06-23 04:45:35,751 - app.main - WARNING - Labels exist: False
+2025-06-23 04:45:35,751 - app.main - INFO - SignSafe API startup complete
+2025-06-23 04:47:04,692 - app.main - INFO - Shutting down SignSafe API...
+2025-06-23 04:47:15,039 - app.main - INFO - Starting SignSafe API...
+2025-06-23 04:47:15,039 - app.main - INFO - Model path: data/models/signsafe_model.h5
+2025-06-23 04:47:15,039 - app.main - INFO - Labels path: data/labels/class_labels.json
+2025-06-23 04:47:15,039 - app.main - WARNING - ⚠️  Model or labels file not found. API will start but predictions will fail.
+2025-06-23 04:47:15,040 - app.main - WARNING - Model exists: True
+2025-06-23 04:47:15,040 - app.main - WARNING - Labels exist: False
+2025-06-23 04:47:15,040 - app.main - INFO - SignSafe API startup complete
+2025-06-23 04:51:19,291 - app.main - INFO - Shutting down SignSafe API...
+2025-06-23 04:51:32,852 - app.main - INFO - Starting SignSafe API...
+2025-06-23 04:51:32,853 - app.main - INFO - Model path: data/models/signsafe_model.h5
+2025-06-23 04:51:32,853 - app.main - INFO - Labels path: data/labels/class_labels.json
+2025-06-23 04:51:32,853 - app.main - WARNING - ⚠️  Model or labels file not found. API will start but predictions will fail.
+2025-06-23 04:51:32,853 - app.main - WARNING - Model exists: True
+2025-06-23 04:51:32,854 - app.main - WARNING - Labels exist: False
+2025-06-23 04:51:32,854 - app.main - INFO - SignSafe API startup complete
+2025-06-23 04:52:05,350 - app.main - INFO - Shutting down SignSafe API...
+2025-06-23 04:59:31,238 - app.main - INFO - Starting SignSafe API...
+2025-06-23 04:59:31,242 - app.main - INFO - Model path: data/models/signsafe_model.h5
+2025-06-23 04:59:31,244 - app.main - INFO - Labels path: data/labels/class_index.json
+2025-06-23 04:59:31,245 - app.main - INFO - Loading ML model...
+2025-06-23 04:59:31,245 - app.services.ml_service - INFO - Loading model from: data/models/signsafe_model.h5
+2025-06-23 04:59:37,690 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-23 04:59:38,417 - app.services.ml_service - INFO - Model loaded successfully
+2025-06-23 04:59:38,422 - app.services.ml_service - INFO - Loaded 1482 class labels
+2025-06-23 04:59:38,428 - app.services.ml_service - INFO - Model input shape: (None, 16, 128, 128, 3)
+2025-06-23 04:59:38,429 - app.services.ml_service - WARNING - Model expects 16 frames, but configured for 30
+2025-06-23 04:59:38,433 - app.services.ml_service - WARNING - Model expects 128x128 images, but configured for 224x224
+2025-06-23 04:59:38,434 - app.services.ml_service - INFO - ML Service initialized with 1482 classes
+2025-06-23 04:59:38,438 - app.main - INFO - ✅ Model loaded successfully
+2025-06-23 04:59:38,438 - app.main - INFO - SignSafe API startup complete
+2025-06-23 05:03:12,427 - app.main - INFO - Shutting down SignSafe API...
+2025-06-23 05:03:18,942 - app.main - INFO - Starting SignSafe API...
+2025-06-23 05:03:18,943 - app.main - INFO - Model path: data/models/signsafe_model.h5
+2025-06-23 05:03:18,943 - app.main - INFO - Labels path: data/labels/class_index.json
+2025-06-23 05:03:18,943 - app.main - INFO - Loading ML model...
+2025-06-23 05:03:18,943 - app.services.ml_service - INFO - Loading model from: data/models/signsafe_model.h5
+2025-06-23 05:03:21,125 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-23 05:03:21,199 - app.services.ml_service - INFO - Model loaded successfully
+2025-06-23 05:03:21,203 - app.services.ml_service - INFO - Loaded 1482 class labels
+2025-06-23 05:03:21,207 - app.services.ml_service - INFO - Model input shape: (None, 16, 128, 128, 3)
+2025-06-23 05:03:21,207 - app.services.ml_service - WARNING - Model expects 16 frames, but configured for 30
+2025-06-23 05:03:21,207 - app.services.ml_service - WARNING - Model expects 128x128 images, but configured for 224x224
+2025-06-23 05:03:21,208 - app.services.ml_service - INFO - ML Service initialized with 1482 classes
+2025-06-23 05:03:21,209 - app.main - INFO - ✅ Model loaded successfully
+2025-06-23 05:03:21,210 - app.main - INFO - SignSafe API startup complete
+2025-06-23 05:42:13,925 - app.main - INFO - Starting SignSafe API...
+2025-06-23 05:42:13,954 - app.main - INFO - Model path: data/models/signsafe_model.h5
+2025-06-23 05:42:13,954 - app.main - INFO - Labels path: data/labels/class_index.json
+2025-06-23 05:42:13,954 - app.main - INFO - Loading ML model...
+2025-06-23 05:42:13,954 - app.services.ml_service - INFO - Loading model from: data/models/signsafe_model.h5
+2025-06-23 05:42:23,466 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-23 05:42:24,288 - app.services.ml_service - INFO - Model loaded successfully
+2025-06-23 05:42:24,488 - app.services.ml_service - INFO - Loaded 1482 class labels
+2025-06-23 05:42:24,489 - app.services.ml_service - INFO - Model input shape: (None, 16, 128, 128, 3)
+2025-06-23 05:42:24,490 - app.services.ml_service - WARNING - Model expects 16 frames, but configured for 30
+2025-06-23 05:42:24,490 - app.services.ml_service - WARNING - Model expects 128x128 images, but configured for 224x224
+2025-06-23 05:42:24,490 - app.services.ml_service - INFO - ML Service initialized with 1482 classes
+2025-06-23 05:42:24,490 - app.main - INFO - ✅ Model loaded successfully
+2025-06-23 05:42:24,490 - app.main - INFO - SignSafe API startup complete
+2025-06-23 05:48:53,255 - app.main - INFO - Shutting down SignSafe API...
+2025-06-23 05:49:01,329 - app.main - INFO - Starting SignSafe API...
+2025-06-23 05:49:01,329 - app.main - INFO - Model path: data/models/signsafe_model.h5
+2025-06-23 05:49:01,329 - app.main - INFO - Labels path: data/labels/class_index.json
+2025-06-23 05:49:01,330 - app.main - INFO - Loading ML model...
+2025-06-23 05:49:01,330 - app.services.ml_service - INFO - Loading model from: data/models/signsafe_model.h5
+2025-06-23 05:49:03,242 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-23 05:49:03,333 - app.services.ml_service - INFO - Model loaded successfully
+2025-06-23 05:49:03,337 - app.services.ml_service - INFO - Loaded 1482 class labels
+2025-06-23 05:49:03,338 - app.services.ml_service - INFO - Model input shape: (None, 16, 128, 128, 3)
+2025-06-23 05:49:03,338 - app.services.ml_service - WARNING - Model expects 16 frames, but configured for 30
+2025-06-23 05:49:03,338 - app.services.ml_service - WARNING - Model expects 128x128 images, but configured for 224x224
+2025-06-23 05:49:03,338 - app.services.ml_service - INFO - ML Service initialized with 1482 classes
+2025-06-23 05:49:03,338 - app.main - INFO - ✅ Model loaded successfully
+2025-06-23 05:49:03,338 - app.main - INFO - SignSafe API startup complete
+2025-06-23 11:58:53,520 - app.main - INFO - Starting SignSafe API...
+2025-06-23 11:58:53,616 - app.main - INFO - Model path: data/models/signsafe_model.h5
+2025-06-23 11:58:53,617 - app.main - INFO - Labels path: data/labels/class_index.json
+2025-06-23 11:58:53,618 - app.main - INFO - Loading ML model...
+2025-06-23 11:58:53,618 - app.services.ml_service - INFO - Loading model from: data/models/signsafe_model.h5
+2025-06-23 11:58:56,793 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-23 11:58:57,046 - app.services.ml_service - INFO - Model loaded successfully
+2025-06-23 11:58:57,074 - app.services.ml_service - INFO - Loaded 1482 class labels
+2025-06-23 11:58:57,074 - app.services.ml_service - INFO - Model input shape: (None, 16, 128, 128, 3)
+2025-06-23 11:58:57,075 - app.services.ml_service - WARNING - Model expects 16 frames, but configured for 30
+2025-06-23 11:58:57,075 - app.services.ml_service - WARNING - Model expects 128x128 images, but configured for 224x224
+2025-06-23 11:58:57,075 - app.services.ml_service - INFO - ML Service initialized with 1482 classes
+2025-06-23 11:58:57,083 - app.main - INFO - ✅ Model loaded successfully
+2025-06-23 11:58:57,085 - app.main - INFO - SignSafe API startup complete
+2025-06-23 12:32:25,831 - app.routers.prediction - INFO - Processing video file: ASL Vocabulary_ Hello, Good Morning, & Good Afternoon.mp4
+2025-06-23 12:32:58,688 - app.routers.prediction - INFO - Video processing completed in 32.80 seconds
+2025-06-23 12:33:14,680 - app.services.ml_service - ERROR - Error during prediction: Input 0 of layer "functional_2" is incompatible with the layer: expected shape=(None, 16, 128, 128, 3), found shape=(1, 30, 224, 224, 3)
+2025-06-23 12:33:14,680 - app.routers.prediction - ERROR - Unexpected error during prediction: Prediction failed: Input 0 of layer "functional_2" is incompatible with the layer: expected shape=(None, 16, 128, 128, 3), found shape=(1, 30, 224, 224, 3)
+2025-06-23 13:03:07,050 - app.main - INFO - Starting SignSafe API...
+2025-06-23 13:03:07,071 - app.main - INFO - Model path: data/models/signsafe_model.h5
+2025-06-23 13:03:07,073 - app.main - INFO - Labels path: data/labels/class_index.json
+2025-06-23 13:03:07,073 - app.main - INFO - Loading ML model...
+2025-06-23 13:03:07,074 - app.services.ml_service - INFO - Loading model from: data/models/signsafe_model.h5
+2025-06-23 13:03:10,413 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-23 13:03:10,704 - app.services.ml_service - INFO - Model loaded successfully
+2025-06-23 13:03:10,718 - app.services.ml_service - INFO - Loaded 1482 class labels
+2025-06-23 13:03:10,718 - app.services.ml_service - INFO - Model input shape: (None, 16, 128, 128, 3)
+2025-06-23 13:03:10,718 - app.services.ml_service - WARNING - Model expects 16 frames, but configured for 30
+2025-06-23 13:03:10,718 - app.services.ml_service - WARNING - Model expects 128x128 images, but configured for 224x224
+2025-06-23 13:03:10,718 - app.services.ml_service - INFO - ML Service initialized with 1482 classes
+2025-06-23 13:03:10,718 - app.main - INFO - ✅ Model loaded successfully
+2025-06-23 13:03:10,719 - app.main - INFO - SignSafe API startup complete
+2025-06-23 13:55:23,458 - app.main - INFO - Starting SignSafe API...
+2025-06-23 13:55:23,472 - app.main - INFO - Model path: data/models/signsafe_model.h5
+2025-06-23 13:55:23,473 - app.main - INFO - Labels path: data/labels/class_index.json
+2025-06-23 13:55:23,473 - app.main - INFO - Loading ML model...
+2025-06-23 13:55:23,473 - app.services.ml_service - INFO - Loading model from: data/models/signsafe_model.h5
+2025-06-23 13:55:26,240 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-23 13:55:26,584 - app.services.ml_service - INFO - Model loaded successfully
+2025-06-23 13:55:26,599 - app.services.ml_service - INFO - Loaded 1482 class labels
+2025-06-23 13:55:26,602 - app.services.ml_service - INFO - Model input shape: (None, 16, 128, 128, 3)
+2025-06-23 13:55:26,603 - app.services.ml_service - WARNING - Model expects 16 frames, but configured for 30
+2025-06-23 13:55:26,604 - app.services.ml_service - WARNING - Model expects 128x128 images, but configured for 224x224
+2025-06-23 13:55:26,605 - app.services.ml_service - INFO - ML Service initialized with 1482 classes
+2025-06-23 13:55:26,606 - app.main - INFO - ✅ Model loaded successfully
+2025-06-23 13:55:26,607 - app.main - INFO - SignSafe API startup complete
+2025-06-23 14:40:38,412 - app.main - INFO - Starting SignSafe API...
+2025-06-23 14:40:38,429 - app.main - INFO - Model path: data/models/signsafe_model.h5
+2025-06-23 14:40:38,430 - app.main - INFO - Labels path: data/labels/class_index.json
+2025-06-23 14:40:38,431 - app.main - INFO - Loading ML model...
+2025-06-23 14:40:38,434 - app.services.ml_service - INFO - Loading model from: data/models/signsafe_model.h5
+2025-06-23 14:40:41,340 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-23 14:40:41,927 - app.services.ml_service - INFO - Model loaded successfully
+2025-06-23 14:40:41,959 - app.services.ml_service - INFO - Loaded 1482 class labels
+2025-06-23 14:40:41,959 - app.services.ml_service - INFO - Model input shape: (None, 16, 128, 128, 3)
+2025-06-23 14:40:41,960 - app.services.ml_service - WARNING - Model expects 16 frames, but configured for 30
+2025-06-23 14:40:41,961 - app.services.ml_service - WARNING - Model expects 128x128 images, but configured for 224x224
+2025-06-23 14:40:41,961 - app.services.ml_service - INFO - ML Service initialized with 1482 classes
+2025-06-23 14:40:41,961 - app.main - INFO - ✅ Model loaded successfully
+2025-06-23 14:40:41,962 - app.main - INFO - SignSafe API startup complete
+2025-06-23 15:07:03,690 - app.main - INFO - Shutting down SignSafe API...
+2025-06-23 15:08:34,324 - app.main - INFO - Starting SignSafe API...
+2025-06-23 15:08:34,324 - app.main - INFO - Model path: data/models/signsafe_model.h5
+2025-06-23 15:08:34,325 - app.main - INFO - Labels path: data/labels/class_index.json
+2025-06-23 15:08:34,325 - app.main - INFO - Loading ML model...
+2025-06-23 15:08:34,326 - app.services.ml_service - INFO - Loading model from: data/models/signsafe_model.h5
+2025-06-23 15:08:39,190 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-23 15:08:39,901 - app.services.ml_service - INFO - Model loaded successfully
+2025-06-23 15:08:39,915 - app.services.ml_service - INFO - Loaded 1482 class labels
+2025-06-23 15:08:39,915 - app.services.ml_service - INFO - Model input shape: (None, 16, 128, 128, 3)
+2025-06-23 15:08:39,916 - app.services.ml_service - WARNING - Model expects 16 frames, but configured for 30
+2025-06-23 15:08:39,916 - app.services.ml_service - WARNING - Model expects 128x128 images, but configured for 224x224
+2025-06-23 15:08:39,916 - app.services.ml_service - INFO - ML Service initialized with 1482 classes
+2025-06-23 15:08:39,916 - app.main - INFO - ✅ Model loaded successfully
+2025-06-23 15:08:39,916 - app.main - INFO - SignSafe API startup complete
+2025-06-23 15:14:38,998 - app.main - INFO - Shutting down SignSafe API...
+2025-06-23 15:15:22,516 - app.main - INFO - Starting SignSafe API...
+2025-06-23 15:15:22,516 - app.main - INFO - Model path: data/models/signsafe_model.h5
+2025-06-23 15:15:22,517 - app.main - INFO - Labels path: data/labels/class_index.json
+2025-06-23 15:15:22,517 - app.main - INFO - Loading ML model...
+2025-06-23 15:15:22,517 - app.services.ml_service - INFO - Loading model from: data/models/signsafe_model.h5
+2025-06-23 15:15:24,135 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-23 15:15:24,225 - app.services.ml_service - INFO - Model loaded successfully
+2025-06-23 15:15:24,229 - app.services.ml_service - INFO - Loaded 1482 class labels
+2025-06-23 15:15:24,230 - app.services.ml_service - INFO - Model input shape: (None, 16, 128, 128, 3)
+2025-06-23 15:15:24,230 - app.services.ml_service - WARNING - Model expects 16 frames, but configured for 30
+2025-06-23 15:15:24,231 - app.services.ml_service - WARNING - Model expects 128x128 images, but configured for 224x224
+2025-06-23 15:15:24,231 - app.services.ml_service - INFO - ML Service initialized with 1482 classes
+2025-06-23 15:15:24,231 - app.main - INFO - ✅ Model loaded successfully
+2025-06-23 15:15:24,231 - app.main - INFO - SignSafe API startup complete
+2025-06-23 15:21:51,291 - app.routers.prediction - INFO - Processing video file: ASL Vocabulary_ Hello, Good Morning, & Good Afternoon.mp4
+2025-06-23 15:21:57,250 - app.routers.prediction - INFO - Video processing completed in 5.96 seconds
+2025-06-23 15:21:58,096 - app.services.ml_service - ERROR - Error during prediction: Input 0 of layer "functional_2" is incompatible with the layer: expected shape=(None, 16, 128, 128, 3), found shape=(1, 30, 224, 224, 3)
+2025-06-23 15:21:58,097 - app.routers.prediction - ERROR - Unexpected error during prediction: Prediction failed: Input 0 of layer "functional_2" is incompatible with the layer: expected shape=(None, 16, 128, 128, 3), found shape=(1, 30, 224, 224, 3)
+2025-06-23 15:38:03,986 - app.main - INFO - Shutting down SignSafe API...
+2025-06-23 15:38:28,065 - app.main - INFO - Starting SignSafe API...
+2025-06-23 15:38:28,066 - app.main - INFO - Model path: data/models/signsafe_model.h5
+2025-06-23 15:38:28,066 - app.main - INFO - Labels path: data/labels/class_index.json
+2025-06-23 15:38:28,066 - app.main - INFO - Loading ML model...
+2025-06-23 15:38:28,066 - app.services.ml_service - INFO - Loading model from: data/models/signsafe_model.h5
+2025-06-23 15:38:30,176 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-23 15:38:30,632 - app.services.ml_service - INFO - Model loaded successfully
+2025-06-23 15:38:30,658 - app.services.ml_service - INFO - Loaded 1482 class labels
+2025-06-23 15:38:30,659 - app.services.ml_service - INFO - Model input shape: (None, 16, 128, 128, 3)
+2025-06-23 15:38:30,659 - app.services.ml_service - WARNING - Model expects 16 frames, but configured for 30
+2025-06-23 15:38:30,659 - app.services.ml_service - WARNING - Model expects 128x128 images, but configured for 224x224
+2025-06-23 15:38:30,660 - app.services.ml_service - INFO - ML Service initialized with 1482 classes
+2025-06-23 15:38:30,660 - app.main - INFO - Model loaded successfully
+2025-06-23 15:38:30,660 - app.main - INFO - SignSafe API startup complete
+2025-06-23 15:42:40,083 - app.main - INFO - Shutting down SignSafe API...
+2025-06-23 15:43:10,120 - app.main - INFO - Starting SignSafe API...
+2025-06-23 15:43:10,121 - app.main - INFO - Model path: data/models/signsafe_model.h5
+2025-06-23 15:43:10,121 - app.main - INFO - Labels path: data/labels/class_index.json
+2025-06-23 15:43:10,121 - app.main - INFO - Loading ML model...
+2025-06-23 15:43:10,121 - app.services.ml_service - INFO - Loading model from: data/models/signsafe_model.h5
+2025-06-23 15:43:11,452 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-23 15:43:11,628 - app.services.ml_service - INFO - Model loaded successfully
+2025-06-23 15:43:11,647 - app.services.ml_service - INFO - Loaded 1482 class labels
+2025-06-23 15:43:11,647 - app.services.ml_service - INFO - Model input shape: (None, 16, 128, 128, 3)
+2025-06-23 15:43:11,647 - app.services.ml_service - WARNING - Model expects 16 frames, but configured for 30
+2025-06-23 15:43:11,647 - app.services.ml_service - WARNING - Model expects 128x128 images, but configured for 224x224
+2025-06-23 15:43:11,648 - app.services.ml_service - INFO - ML Service initialized with 1482 classes
+2025-06-23 15:43:11,648 - app.main - INFO - Model loaded successfully
+2025-06-23 15:43:11,648 - app.main - INFO - SignSafe API startup complete
+2025-06-23 15:43:18,132 - app.routers.realtime - INFO - WebSocket connection accepted for real-time prediction
+2025-06-23 15:43:20,155 - app.routers.realtime - ERROR - Error in WebSocket real-time prediction: 'bytes'
+2025-06-23 15:43:34,603 - app.routers.realtime - INFO - WebSocket connection accepted for real-time prediction
+2025-06-23 15:43:35,620 - app.routers.realtime - ERROR - Error in WebSocket real-time prediction: 'bytes'
+2025-06-23 15:43:38,419 - app.routers.realtime - INFO - WebSocket connection accepted for real-time prediction
+2025-06-23 15:43:39,272 - app.routers.realtime - ERROR - Error in WebSocket real-time prediction: 'bytes'
+2025-06-24 02:11:27,619 - app.main - INFO - Starting SignSafe API...
+2025-06-24 02:11:27,668 - app.main - INFO - Model path: data/models/signsafe_model.h5
+2025-06-24 02:11:27,670 - app.main - INFO - Labels path: data/labels/class_index.json
+2025-06-24 02:11:27,670 - app.main - INFO - Loading ML model...
+2025-06-24 02:11:27,671 - app.services.ml_service - INFO - Loading model from: data/models/signsafe_model.h5
+2025-06-24 02:11:30,872 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-24 02:11:31,142 - app.services.ml_service - INFO - Model loaded successfully
+2025-06-24 02:11:31,155 - app.services.ml_service - INFO - Loaded 1482 class labels
+2025-06-24 02:11:31,156 - app.services.ml_service - INFO - Model input shape: (None, 16, 128, 128, 3)
+2025-06-24 02:11:31,156 - app.services.ml_service - WARNING - Model expects 16 frames, but configured for 30
+2025-06-24 02:11:31,156 - app.services.ml_service - WARNING - Model expects 128x128 images, but configured for 224x224
+2025-06-24 02:11:31,157 - app.services.ml_service - INFO - ML Service initialized with 1482 classes
+2025-06-24 02:11:31,157 - app.main - INFO - Model loaded successfully
+2025-06-24 02:11:31,157 - app.main - INFO - SignSafe API startup complete
+2025-06-24 02:18:14,350 - app.routers.realtime - INFO - WebSocket connection accepted for real-time prediction
+2025-06-24 02:18:16,130 - app.routers.realtime - ERROR - Error in WebSocket real-time prediction: 'bytes'
+2025-06-24 02:18:21,231 - app.routers.realtime - INFO - WebSocket connection accepted for real-time prediction
+2025-06-24 02:18:22,482 - app.routers.realtime - ERROR - Error in WebSocket real-time prediction: 'bytes'
+2025-06-24 02:18:29,589 - app.routers.realtime - INFO - WebSocket connection accepted for real-time prediction
+2025-06-24 02:18:30,466 - app.routers.realtime - ERROR - Error in WebSocket real-time prediction: 'bytes'
+2025-06-24 02:18:33,853 - app.routers.realtime - INFO - WebSocket connection accepted for real-time prediction
+2025-06-24 02:18:34,682 - app.routers.realtime - ERROR - Error in WebSocket real-time prediction: 'bytes'
+2025-06-24 02:30:07,717 - app.main - INFO - Shutting down SignSafe API...
+2025-06-24 02:30:32,324 - app.main - INFO - Starting SignSafe API...
+2025-06-24 02:30:32,324 - app.main - INFO - Model path: data/models/signsafe_model.h5
+2025-06-24 02:30:32,325 - app.main - INFO - Labels path: data/labels/class_index.json
+2025-06-24 02:30:32,325 - app.main - INFO - Loading ML model...
+2025-06-24 02:30:32,325 - app.services.ml_service - INFO - Loading model from: data/models/signsafe_model.h5
+2025-06-24 02:30:34,395 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-24 02:30:34,562 - app.services.ml_service - INFO - Model loaded successfully
+2025-06-24 02:30:34,577 - app.services.ml_service - INFO - Loaded 1482 class labels
+2025-06-24 02:30:34,578 - app.services.ml_service - INFO - Model input shape: (None, 16, 128, 128, 3)
+2025-06-24 02:30:34,578 - app.services.ml_service - WARNING - Model expects 16 frames, but configured for 30
+2025-06-24 02:30:34,578 - app.services.ml_service - WARNING - Model expects 128x128 images, but configured for 224x224
+2025-06-24 02:30:34,578 - app.services.ml_service - INFO - ML Service initialized with 1482 classes
+2025-06-24 02:30:34,579 - app.main - INFO - Model loaded successfully
+2025-06-24 02:30:34,579 - app.main - INFO - SignSafe API startup complete
+2025-06-24 02:32:49,600 - app.main - INFO - Shutting down SignSafe API...
+2025-06-24 02:32:56,532 - app.main - INFO - Starting SignSafe API...
+2025-06-24 02:32:56,532 - app.main - INFO - Model path: data/models/signsafe_model.h5
+2025-06-24 02:32:56,533 - app.main - INFO - Labels path: data/labels/class_index.json
+2025-06-24 02:32:56,533 - app.main - INFO - Loading ML model...
+2025-06-24 02:32:56,533 - app.services.ml_service - INFO - Loading model from: data/models/signsafe_model.h5
+2025-06-24 02:32:58,213 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-24 02:32:58,302 - app.services.ml_service - INFO - Model loaded successfully
+2025-06-24 02:32:58,304 - app.services.ml_service - INFO - Loaded 1482 class labels
+2025-06-24 02:32:58,305 - app.services.ml_service - INFO - Model input shape: (None, 16, 128, 128, 3)
+2025-06-24 02:32:58,305 - app.services.ml_service - WARNING - Model expects 16 frames, but configured for 30
+2025-06-24 02:32:58,305 - app.services.ml_service - WARNING - Model expects 128x128 images, but configured for 224x224
+2025-06-24 02:32:58,306 - app.services.ml_service - INFO - ML Service initialized with 1482 classes
+2025-06-24 02:32:58,306 - app.main - INFO - Model loaded successfully
+2025-06-24 02:32:58,306 - app.main - INFO - SignSafe API startup complete
+2025-06-24 02:33:02,617 - app.main - INFO - Starting SignSafe API...
+2025-06-24 02:33:02,617 - app.main - INFO - Model path: data/models/signsafe_model.h5
+2025-06-24 02:33:02,617 - app.main - INFO - Labels path: data/labels/class_index.json
+2025-06-24 02:33:02,618 - app.main - INFO - Loading ML model...
+2025-06-24 02:33:02,618 - app.services.ml_service - INFO - Loading model from: data/models/signsafe_model.h5
+2025-06-24 02:33:04,294 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-24 02:33:04,377 - app.services.ml_service - INFO - Model loaded successfully
+2025-06-24 02:33:04,380 - app.services.ml_service - INFO - Loaded 1482 class labels
+2025-06-24 02:33:04,380 - app.services.ml_service - INFO - Model input shape: (None, 16, 128, 128, 3)
+2025-06-24 02:33:04,381 - app.services.ml_service - WARNING - Model expects 16 frames, but configured for 30
+2025-06-24 02:33:04,381 - app.services.ml_service - WARNING - Model expects 128x128 images, but configured for 224x224
+2025-06-24 02:33:04,381 - app.services.ml_service - INFO - ML Service initialized with 1482 classes
+2025-06-24 02:33:04,381 - app.main - INFO - Model loaded successfully
+2025-06-24 02:33:04,382 - app.main - INFO - SignSafe API startup complete
+2025-06-24 02:36:51,672 - app.routers.realtime - INFO - WebSocket connection accepted for real-time prediction
+2025-06-24 02:37:03,962 - app.routers.realtime - INFO - WebSocket connection closed
+2025-06-24 02:37:11,652 - app.routers.realtime - INFO - WebSocket connection accepted for real-time prediction
+2025-06-24 02:37:56,387 - app.routers.realtime - INFO - WebSocket connection closed
+2025-06-24 02:43:38,362 - app.main - INFO - Shutting down SignSafe API...
+2025-06-24 02:43:45,142 - app.main - INFO - Starting SignSafe API...
+2025-06-24 02:43:45,143 - app.main - INFO - Model path: data/models/signsafe_model.h5
+2025-06-24 02:43:45,143 - app.main - INFO - Labels path: data/labels/class_index.json
+2025-06-24 02:43:45,143 - app.main - INFO - Loading ML model...
+2025-06-24 02:43:45,144 - app.services.ml_service - INFO - Loading model from: data/models/signsafe_model.h5
+2025-06-24 02:43:46,903 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-24 02:43:46,989 - app.services.ml_service - INFO - Model loaded successfully
+2025-06-24 02:43:46,992 - app.services.ml_service - INFO - Loaded 1482 class labels
+2025-06-24 02:43:46,992 - app.services.ml_service - INFO - Model input shape: (None, 16, 128, 128, 3)
+2025-06-24 02:43:46,993 - app.services.ml_service - WARNING - Model expects 16 frames, but configured for 30
+2025-06-24 02:43:46,993 - app.services.ml_service - WARNING - Model expects 128x128 images, but configured for 224x224
+2025-06-24 02:43:46,993 - app.services.ml_service - INFO - ML Service initialized with 1482 classes
+2025-06-24 02:43:46,993 - app.main - INFO - Model loaded successfully
+2025-06-24 02:43:46,994 - app.main - INFO - SignSafe API startup complete
+2025-06-24 02:43:51,561 - app.main - INFO - Starting SignSafe API...
+2025-06-24 02:43:51,561 - app.main - INFO - Model path: data/models/signsafe_model.h5
+2025-06-24 02:43:51,561 - app.main - INFO - Labels path: data/labels/class_index.json
+2025-06-24 02:43:51,561 - app.main - INFO - Loading ML model...
+2025-06-24 02:43:51,562 - app.services.ml_service - INFO - Loading model from: data/models/signsafe_model.h5
+2025-06-24 02:43:53,173 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-24 02:43:53,265 - app.services.ml_service - INFO - Model loaded successfully
+2025-06-24 02:43:53,268 - app.services.ml_service - INFO - Loaded 1482 class labels
+2025-06-24 02:43:53,268 - app.services.ml_service - INFO - Model input shape: (None, 16, 128, 128, 3)
+2025-06-24 02:43:53,268 - app.services.ml_service - WARNING - Model expects 16 frames, but configured for 30
+2025-06-24 02:43:53,268 - app.services.ml_service - WARNING - Model expects 128x128 images, but configured for 224x224
+2025-06-24 02:43:53,269 - app.services.ml_service - INFO - ML Service initialized with 1482 classes
+2025-06-24 02:43:53,269 - app.main - INFO - Model loaded successfully
+2025-06-24 02:43:53,269 - app.main - INFO - SignSafe API startup complete
+2025-06-24 02:51:17,206 - app.main - INFO - Shutting down SignSafe API...
+2025-06-24 02:51:25,750 - app.main - INFO - Starting SignSafe API...
+2025-06-24 02:51:25,750 - app.main - INFO - Model path: data/models/signsafe_model.h5
+2025-06-24 02:51:25,750 - app.main - INFO - Labels path: data/labels/class_index.json
+2025-06-24 02:51:25,750 - app.main - INFO - Loading ML model...
+2025-06-24 02:51:25,751 - app.services.ml_service - INFO - Loading model from: data/models/signsafe_model.h5
+2025-06-24 02:51:27,455 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-24 02:51:27,540 - app.services.ml_service - INFO - Model loaded successfully
+2025-06-24 02:51:27,543 - app.services.ml_service - INFO - Loaded 1482 class labels
+2025-06-24 02:51:27,543 - app.services.ml_service - INFO - Model input shape: (None, 16, 128, 128, 3)
+2025-06-24 02:51:27,543 - app.services.ml_service - WARNING - Model expects 16 frames, but configured for 30
+2025-06-24 02:51:27,544 - app.services.ml_service - WARNING - Model expects 128x128 images, but configured for 224x224
+2025-06-24 02:51:27,544 - app.services.ml_service - INFO - ML Service initialized with 1482 classes
+2025-06-24 02:51:27,544 - app.main - INFO - Model loaded successfully
+2025-06-24 02:51:27,544 - app.main - INFO - SignSafe API startup complete
+2025-06-24 02:54:15,951 - app.routers.prediction - INFO - Processing video file: ASL Vocabulary_ Hello, Good Morning, & Good Afternoon.mp4
+2025-06-24 02:54:24,155 - app.routers.prediction - INFO - Video processing completed in 8.20 seconds
+2025-06-24 02:54:24,436 - app.services.ml_service - ERROR - Error during prediction: Input 0 of layer "functional_2" is incompatible with the layer: expected shape=(None, 16, 128, 128, 3), found shape=(1, 30, 224, 224, 3)
+2025-06-24 02:54:24,437 - app.routers.prediction - ERROR - Unexpected error during prediction: Prediction failed: Input 0 of layer "functional_2" is incompatible with the layer: expected shape=(None, 16, 128, 128, 3), found shape=(1, 30, 224, 224, 3)
+2025-06-24 03:03:31,516 - app.main - INFO - Shutting down SignSafe API...
+2025-06-24 03:03:36,581 - app.main - INFO - Starting SignSafe API...
+2025-06-24 03:03:36,581 - app.main - INFO - Model path: data/models/signsafe_model.h5
+2025-06-24 03:03:36,581 - app.main - INFO - Labels path: data/labels/class_index.json
+2025-06-24 03:03:36,581 - app.main - INFO - Loading ML model...
+2025-06-24 03:03:36,582 - app.services.ml_service - INFO - Loading model from: data/models/signsafe_model.h5
+2025-06-24 03:03:38,420 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-24 03:03:38,504 - app.services.ml_service - INFO - Model loaded successfully
+2025-06-24 03:03:38,507 - app.services.ml_service - INFO - Loaded 1482 class labels
+2025-06-24 03:03:38,508 - app.services.ml_service - INFO - Model input shape: (None, 16, 128, 128, 3)
+2025-06-24 03:03:38,509 - app.services.ml_service - WARNING - Model expects 16 frames, but configured for 30
+2025-06-24 03:03:38,509 - app.services.ml_service - WARNING - Model expects 128x128 images, but configured for 224x224
+2025-06-24 03:03:38,509 - app.services.ml_service - INFO - ML Service initialized with 1482 classes
+2025-06-24 03:03:38,509 - app.main - INFO - Model loaded successfully
+2025-06-24 03:03:38,509 - app.main - INFO - SignSafe API startup complete
+2025-06-24 03:04:20,689 - app.main - INFO - Shutting down SignSafe API...
+2025-06-24 03:04:30,219 - app.main - INFO - Starting SignSafe API...
+2025-06-24 03:04:30,220 - app.main - INFO - Model path: data/models/signsafe_model.h5
+2025-06-24 03:04:30,220 - app.main - INFO - Labels path: data/labels/class_index.json
+2025-06-24 03:04:30,220 - app.main - INFO - Loading ML model...
+2025-06-24 03:04:30,220 - app.services.ml_service - INFO - Loading model from: data/models/signsafe_model.h5
+2025-06-24 03:04:32,047 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-24 03:04:32,137 - app.services.ml_service - INFO - Model loaded successfully
+2025-06-24 03:04:32,140 - app.services.ml_service - INFO - Loaded 1482 class labels
+2025-06-24 03:04:32,141 - app.services.ml_service - INFO - Model input shape: (None, 16, 128, 128, 3)
+2025-06-24 03:04:32,141 - app.services.ml_service - WARNING - Model expects 16 frames, but configured for 30
+2025-06-24 03:04:32,141 - app.services.ml_service - WARNING - Model expects 128x128 images, but configured for 224x224
+2025-06-24 03:04:32,142 - app.services.ml_service - INFO - ML Service initialized with 1482 classes
+2025-06-24 03:04:32,142 - app.main - INFO - Model loaded successfully
+2025-06-24 03:04:32,142 - app.main - INFO - SignSafe API startup complete
+2025-06-24 03:05:09,483 - app.routers.prediction - INFO - Processing video file: ASL Vocabulary_ Hello, Good Morning, & Good Afternoon.mp4
+2025-06-24 03:20:05,978 - app.main - INFO - Starting SignSafe API...
+2025-06-24 03:20:06,005 - app.main - INFO - Model path: data/models/signsafe_model.h5
+2025-06-24 03:20:06,006 - app.main - INFO - Labels path: data/labels/class_index.json
+2025-06-24 03:20:06,007 - app.main - INFO - Loading ML model...
+2025-06-24 03:20:06,008 - app.services.ml_service - INFO - Loading model from: data/models/signsafe_model.h5
+2025-06-24 03:20:10,703 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-24 03:20:11,288 - app.services.ml_service - INFO - Model loaded successfully
+2025-06-24 03:20:11,373 - app.services.ml_service - INFO - Loaded 1482 class labels
+2025-06-24 03:20:11,373 - app.services.ml_service - INFO - Model input shape: (None, 16, 128, 128, 3)
+2025-06-24 03:20:11,373 - app.services.ml_service - WARNING - Model expects 16 frames, but configured for 30
+2025-06-24 03:20:11,374 - app.services.ml_service - WARNING - Model expects 128x128 images, but configured for 224x224
+2025-06-24 03:20:11,374 - app.services.ml_service - INFO - ML Service initialized with 1482 classes
+2025-06-24 03:20:11,374 - app.main - INFO - Model loaded successfully
+2025-06-24 03:20:11,374 - app.main - INFO - SignSafe API startup complete
+2025-06-24 03:22:39,978 - app.routers.prediction - INFO - Processing video file: ASL Vocabulary_ Hello, Good Morning, & Good Afternoon.mp4
+2025-06-24 03:31:37,930 - app.main - INFO - Starting SignSafe API...
+2025-06-24 03:31:37,930 - app.main - INFO - Model path: data/models/signsafe_model.h5
+2025-06-24 03:31:37,931 - app.main - INFO - Labels path: data/labels/class_index.json
+2025-06-24 03:31:37,932 - app.main - INFO - Loading ML model...
+2025-06-24 03:31:37,932 - app.services.ml_service - INFO - Loading model from: data/models/signsafe_model.h5
+2025-06-24 03:31:41,349 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-24 03:31:41,748 - app.services.ml_service - INFO - Model loaded successfully
+2025-06-24 03:31:41,783 - app.services.ml_service - INFO - Loaded 1482 class labels
+2025-06-24 03:31:41,786 - app.services.ml_service - INFO - Model input shape: (None, 16, 128, 128, 3)
+2025-06-24 03:31:41,787 - app.services.ml_service - WARNING - Model expects 16 frames, but configured for 30
+2025-06-24 03:31:41,787 - app.services.ml_service - WARNING - Model expects 128x128 images, but configured for 224x224
+2025-06-24 03:31:41,787 - app.services.ml_service - INFO - ML Service initialized with 1482 classes
+2025-06-24 03:31:41,787 - app.main - INFO - Model loaded successfully
+2025-06-24 03:31:41,788 - app.main - INFO - SignSafe API startup complete
+2025-06-24 03:43:24,173 - app.routers.prediction - INFO - Processing video file: 02124.mp4
+2025-06-24 03:43:24,983 - app.routers.prediction - INFO - Video processing completed in 0.81 seconds
+2025-06-24 03:43:25,937 - app.services.ml_service - ERROR - Error during prediction: Input 0 of layer "functional_2" is incompatible with the layer: expected shape=(None, 16, 128, 128, 3), found shape=(1, 30, 224, 224, 3)
+2025-06-24 03:43:25,937 - app.routers.prediction - ERROR - Unexpected error during prediction: Prediction failed: Input 0 of layer "functional_2" is incompatible with the layer: expected shape=(None, 16, 128, 128, 3), found shape=(1, 30, 224, 224, 3)
+2025-06-24 03:46:38,975 - app.main - INFO - Shutting down SignSafe API...
+2025-06-24 03:46:56,720 - app.main - INFO - Starting SignSafe API...
+2025-06-24 03:46:56,720 - app.main - INFO - Model path: data/models/signsafe_model.h5
+2025-06-24 03:46:56,720 - app.main - INFO - Labels path: data/labels/class_index.json
+2025-06-24 03:46:56,721 - app.main - INFO - Loading ML model...
+2025-06-24 03:46:56,721 - app.services.ml_service - INFO - Loading model from: data/models/signsafe_model.h5
+2025-06-24 03:46:58,781 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-24 03:46:58,882 - app.services.ml_service - INFO - Model loaded successfully
+2025-06-24 03:46:58,885 - app.services.ml_service - INFO - Loaded 1482 class labels
+2025-06-24 03:46:58,885 - app.services.ml_service - INFO - Model input shape: (None, 16, 128, 128, 3)
+2025-06-24 03:46:58,885 - app.services.ml_service - WARNING - Model expects 16 frames, but configured for 30
+2025-06-24 03:46:58,885 - app.services.ml_service - WARNING - Model expects 128x128 images, but configured for 224x224
+2025-06-24 03:46:58,896 - app.services.ml_service - INFO - ML Service initialized with 1482 classes
+2025-06-24 03:46:58,896 - app.main - INFO - Model loaded successfully
+2025-06-24 03:46:58,896 - app.main - INFO - SignSafe API startup complete
+2025-06-24 03:47:41,809 - app.routers.prediction - INFO - Processing video file: 02124.mp4
+2025-06-24 03:47:41,994 - app.routers.prediction - INFO - Video processing completed in 0.19 seconds
+2025-06-24 03:47:42,180 - app.services.ml_service - ERROR - Error during prediction: Input 0 of layer "functional_2" is incompatible with the layer: expected shape=(None, 16, 128, 128, 3), found shape=(1, 30, 224, 224, 3)
+2025-06-24 03:47:42,180 - app.routers.prediction - ERROR - Unexpected error during prediction: Prediction failed: Input 0 of layer "functional_2" is incompatible with the layer: expected shape=(None, 16, 128, 128, 3), found shape=(1, 30, 224, 224, 3)
+2025-06-24 03:48:14,840 - app.main - INFO - Shutting down SignSafe API...
+2025-06-24 03:48:22,000 - app.main - INFO - Starting SignSafe API...
+2025-06-24 03:48:22,000 - app.main - INFO - Model path: data/models/signsafe_model.h5
+2025-06-24 03:48:22,001 - app.main - INFO - Labels path: data/labels/class_index.json
+2025-06-24 03:48:22,001 - app.main - INFO - Loading ML model...
+2025-06-24 03:48:22,001 - app.services.ml_service - INFO - Loading model from: data/models/signsafe_model.h5
+2025-06-24 03:48:23,687 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-24 03:48:23,768 - app.services.ml_service - INFO - Model loaded successfully
+2025-06-24 03:48:23,770 - app.services.ml_service - INFO - Loaded 1482 class labels
+2025-06-24 03:48:23,770 - app.services.ml_service - INFO - Model input shape: (None, 16, 128, 128, 3)
+2025-06-24 03:48:23,770 - app.services.ml_service - WARNING - Model expects 16 frames, but configured for 30
+2025-06-24 03:48:23,770 - app.services.ml_service - WARNING - Model expects 128x128 images, but configured for 224x224
+2025-06-24 03:48:23,770 - app.services.ml_service - INFO - ML Service initialized with 1482 classes
+2025-06-24 03:48:23,771 - app.main - INFO - Model loaded successfully
+2025-06-24 03:48:23,771 - app.main - INFO - SignSafe API startup complete
+2025-06-24 03:48:28,247 - app.main - INFO - Starting SignSafe API...
+2025-06-24 03:48:28,247 - app.main - INFO - Model path: data/models/signsafe_model.h5
+2025-06-24 03:48:28,247 - app.main - INFO - Labels path: data/labels/class_index.json
+2025-06-24 03:48:28,248 - app.main - INFO - Loading ML model...
+2025-06-24 03:48:28,248 - app.services.ml_service - INFO - Loading model from: data/models/signsafe_model.h5
+2025-06-24 03:48:29,919 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-24 03:48:30,005 - app.services.ml_service - INFO - Model loaded successfully
+2025-06-24 03:48:30,007 - app.services.ml_service - INFO - Loaded 1482 class labels
+2025-06-24 03:48:30,007 - app.services.ml_service - INFO - Model input shape: (None, 16, 128, 128, 3)
+2025-06-24 03:48:30,008 - app.services.ml_service - WARNING - Model expects 16 frames, but configured for 30
+2025-06-24 03:48:30,008 - app.services.ml_service - WARNING - Model expects 128x128 images, but configured for 224x224
+2025-06-24 03:48:30,008 - app.services.ml_service - INFO - ML Service initialized with 1482 classes
+2025-06-24 03:48:30,008 - app.main - INFO - Model loaded successfully
+2025-06-24 03:48:30,008 - app.main - INFO - SignSafe API startup complete
+2025-06-24 03:49:08,267 - app.main - INFO - Shutting down SignSafe API...
+2025-06-24 03:49:19,563 - app.main - INFO - Starting SignSafe API...
+2025-06-24 03:49:19,563 - app.main - INFO - Model path: data/models/signsafe_model.h5
+2025-06-24 03:49:19,565 - app.main - INFO - Labels path: data/labels/class_index.json
+2025-06-24 03:49:19,565 - app.main - INFO - Loading ML model...
+2025-06-24 03:49:19,565 - app.services.ml_service - INFO - Loading model from: data/models/signsafe_model.h5
+2025-06-24 03:49:21,173 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-24 03:49:21,253 - app.services.ml_service - INFO - Model loaded successfully
+2025-06-24 03:49:21,255 - app.services.ml_service - INFO - Loaded 1482 class labels
+2025-06-24 03:49:21,256 - app.services.ml_service - INFO - Model input shape: (None, 16, 128, 128, 3)
+2025-06-24 03:49:21,256 - app.services.ml_service - WARNING - Model expects 16 frames, but configured for 30
+2025-06-24 03:49:21,256 - app.services.ml_service - WARNING - Model expects 128x128 images, but configured for 224x224
+2025-06-24 03:49:21,256 - app.services.ml_service - INFO - ML Service initialized with 1482 classes
+2025-06-24 03:49:21,256 - app.main - INFO - Model loaded successfully
+2025-06-24 03:49:21,256 - app.main - INFO - SignSafe API startup complete
+2025-06-24 03:49:47,949 - app.routers.prediction - INFO - Processing video file: 02124.mp4
+2025-06-24 03:49:48,127 - app.routers.prediction - INFO - Video processing completed in 0.18 seconds
+2025-06-24 03:49:48,127 - app.routers.prediction - INFO - Video frames shape before prediction: (30, 224, 224, 3)
+2025-06-24 03:49:48,300 - app.services.ml_service - ERROR - Error during prediction: Input 0 of layer "functional_2" is incompatible with the layer: expected shape=(None, 16, 128, 128, 3), found shape=(1, 30, 224, 224, 3)
+2025-06-24 03:49:48,300 - app.routers.prediction - ERROR - Unexpected error during prediction: Prediction failed: Input 0 of layer "functional_2" is incompatible with the layer: expected shape=(None, 16, 128, 128, 3), found shape=(1, 30, 224, 224, 3)
+2025-06-24 03:50:37,023 - app.main - INFO - Shutting down SignSafe API...
+2025-06-24 03:50:42,466 - app.main - INFO - Starting SignSafe API...
+2025-06-24 03:50:42,467 - app.main - INFO - Model path: data/models/signsafe_model.h5
+2025-06-24 03:50:42,467 - app.main - INFO - Labels path: data/labels/class_index.json
+2025-06-24 03:50:42,467 - app.main - INFO - Loading ML model...
+2025-06-24 03:50:42,467 - app.services.ml_service - INFO - Loading model from: data/models/signsafe_model.h5
+2025-06-24 03:50:44,510 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-24 03:50:44,604 - app.services.ml_service - INFO - Model loaded successfully
+2025-06-24 03:50:44,607 - app.services.ml_service - INFO - Loaded 1482 class labels
+2025-06-24 03:50:44,608 - app.services.ml_service - INFO - Model input shape: (None, 16, 128, 128, 3)
+2025-06-24 03:50:44,609 - app.services.ml_service - WARNING - Model expects 16 frames, but configured for 30
+2025-06-24 03:50:44,609 - app.services.ml_service - WARNING - Model expects 128x128 images, but configured for 224x224
+2025-06-24 03:50:44,609 - app.services.ml_service - INFO - ML Service initialized with 1482 classes
+2025-06-24 03:50:44,609 - app.main - INFO - Model loaded successfully
+2025-06-24 03:50:44,609 - app.main - INFO - SignSafe API startup complete
+2025-06-24 03:50:54,285 - app.main - INFO - Shutting down SignSafe API...
+2025-06-24 03:51:02,366 - app.main - INFO - Starting SignSafe API...
+2025-06-24 03:51:02,366 - app.main - INFO - Model path: data/models/signsafe_model.h5
+2025-06-24 03:51:02,366 - app.main - INFO - Labels path: data/labels/class_index.json
+2025-06-24 03:51:02,367 - app.main - INFO - Loading ML model...
+2025-06-24 03:51:02,367 - app.services.ml_service - INFO - Loading model from: data/models/signsafe_model.h5
+2025-06-24 03:51:04,174 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-24 03:51:04,259 - app.services.ml_service - INFO - Model loaded successfully
+2025-06-24 03:51:04,261 - app.services.ml_service - INFO - Loaded 1482 class labels
+2025-06-24 03:51:04,261 - app.services.ml_service - INFO - Model input shape: (None, 16, 128, 128, 3)
+2025-06-24 03:51:04,262 - app.services.ml_service - WARNING - Model expects 16 frames, but configured for 30
+2025-06-24 03:51:04,262 - app.services.ml_service - WARNING - Model expects 128x128 images, but configured for 224x224
+2025-06-24 03:51:04,262 - app.services.ml_service - INFO - ML Service initialized with 1482 classes
+2025-06-24 03:51:04,262 - app.main - INFO - Model loaded successfully
+2025-06-24 03:51:04,262 - app.main - INFO - SignSafe API startup complete
+2025-06-24 03:51:08,610 - app.main - INFO - Starting SignSafe API...
+2025-06-24 03:51:08,610 - app.main - INFO - Model path: data/models/signsafe_model.h5
+2025-06-24 03:51:08,611 - app.main - INFO - Labels path: data/labels/class_index.json
+2025-06-24 03:51:08,611 - app.main - INFO - Loading ML model...
+2025-06-24 03:51:08,611 - app.services.ml_service - INFO - Loading model from: data/models/signsafe_model.h5
+2025-06-24 03:51:10,311 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-24 03:51:10,405 - app.services.ml_service - INFO - Model loaded successfully
+2025-06-24 03:51:10,407 - app.services.ml_service - INFO - Loaded 1482 class labels
+2025-06-24 03:51:10,407 - app.services.ml_service - INFO - Model input shape: (None, 16, 128, 128, 3)
+2025-06-24 03:51:10,407 - app.services.ml_service - WARNING - Model expects 16 frames, but configured for 30
+2025-06-24 03:51:10,408 - app.services.ml_service - WARNING - Model expects 128x128 images, but configured for 224x224
+2025-06-24 03:51:10,408 - app.services.ml_service - INFO - ML Service initialized with 1482 classes
+2025-06-24 03:51:10,408 - app.main - INFO - Model loaded successfully
+2025-06-24 03:51:10,408 - app.main - INFO - SignSafe API startup complete
+2025-06-24 03:51:15,858 - app.main - INFO - Starting SignSafe API...
+2025-06-24 03:51:15,858 - app.main - INFO - Model path: data/models/signsafe_model.h5
+2025-06-24 03:51:15,858 - app.main - INFO - Labels path: data/labels/class_index.json
+2025-06-24 03:51:15,858 - app.main - INFO - Loading ML model...
+2025-06-24 03:51:15,858 - app.services.ml_service - INFO - Loading model from: data/models/signsafe_model.h5
+2025-06-24 03:51:17,900 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-24 03:51:17,989 - app.services.ml_service - INFO - Model loaded successfully
+2025-06-24 03:51:17,991 - app.services.ml_service - INFO - Loaded 1482 class labels
+2025-06-24 03:51:17,992 - app.services.ml_service - INFO - Model input shape: (None, 16, 128, 128, 3)
+2025-06-24 03:51:17,992 - app.services.ml_service - WARNING - Model expects 16 frames, but configured for 30
+2025-06-24 03:51:17,992 - app.services.ml_service - WARNING - Model expects 128x128 images, but configured for 224x224
+2025-06-24 03:51:17,992 - app.services.ml_service - INFO - ML Service initialized with 1482 classes
+2025-06-24 03:51:17,993 - app.main - INFO - Model loaded successfully
+2025-06-24 03:51:17,993 - app.main - INFO - SignSafe API startup complete
+2025-06-24 03:51:30,144 - app.main - INFO - Shutting down SignSafe API...
+2025-06-24 03:51:37,516 - app.main - INFO - Starting SignSafe API...
+2025-06-24 03:51:37,516 - app.main - INFO - Model path: data/models/signsafe_model.h5
+2025-06-24 03:51:37,516 - app.main - INFO - Labels path: data/labels/class_index.json
+2025-06-24 03:51:37,516 - app.main - INFO - Loading ML model...
+2025-06-24 03:51:37,517 - app.services.ml_service - INFO - Loading model from: data/models/signsafe_model.h5
+2025-06-24 03:51:39,417 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-24 03:51:39,504 - app.services.ml_service - INFO - Model loaded successfully
+2025-06-24 03:51:39,506 - app.services.ml_service - INFO - Loaded 1482 class labels
+2025-06-24 03:51:39,506 - app.services.ml_service - INFO - Model input shape: (None, 16, 128, 128, 3)
+2025-06-24 03:51:39,507 - app.services.ml_service - WARNING - Model expects 16 frames, but configured for 30
+2025-06-24 03:51:39,507 - app.services.ml_service - WARNING - Model expects 128x128 images, but configured for 224x224
+2025-06-24 03:51:39,507 - app.services.ml_service - INFO - ML Service initialized with 1482 classes
+2025-06-24 03:51:39,507 - app.main - INFO - Model loaded successfully
+2025-06-24 03:51:39,507 - app.main - INFO - SignSafe API startup complete
+2025-06-24 03:52:07,435 - app.routers.prediction - INFO - Processing video file: 02124.mp4
+2025-06-24 03:52:07,560 - app.services.video_service - INFO - [VideoService] Total frames extracted: 74
+2025-06-24 03:52:07,562 - app.services.video_service - INFO - [VideoService] Sampled frames count: 30
+2025-06-24 03:52:07,631 - app.services.video_service - INFO - [VideoService] Extracted frames shape: (30, 224, 224, 3)
+2025-06-24 03:52:07,633 - app.routers.prediction - INFO - Video processing completed in 0.20 seconds
+2025-06-24 03:52:07,634 - app.routers.prediction - INFO - Video frames shape before prediction: (30, 224, 224, 3)
+2025-06-24 03:52:07,821 - app.services.ml_service - ERROR - Error during prediction: Input 0 of layer "functional_2" is incompatible with the layer: expected shape=(None, 16, 128, 128, 3), found shape=(1, 30, 224, 224, 3)
+2025-06-24 03:52:07,821 - app.routers.prediction - ERROR - Unexpected error during prediction: Prediction failed: Input 0 of layer "functional_2" is incompatible with the layer: expected shape=(None, 16, 128, 128, 3), found shape=(1, 30, 224, 224, 3)
+2025-06-24 03:57:24,276 - app.main - INFO - Starting SignSafe API...
+2025-06-24 03:57:24,277 - app.main - INFO - Model path: data/models/signsafe_model.h5
+2025-06-24 03:57:24,277 - app.main - INFO - Labels path: data/labels/class_index.json
+2025-06-24 03:57:24,277 - app.main - INFO - Loading ML model...
+2025-06-24 03:57:24,278 - app.services.ml_service - INFO - Loading model from: data/models/signsafe_model.h5
+2025-06-24 03:57:26,150 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-24 03:57:26,276 - app.services.ml_service - INFO - Model loaded successfully
+2025-06-24 03:57:26,282 - app.services.ml_service - INFO - Loaded 1482 class labels
+2025-06-24 03:57:26,282 - app.services.ml_service - INFO - Model input shape: (None, 16, 128, 128, 3)
+2025-06-24 03:57:26,283 - app.services.ml_service - WARNING - Model expects 16 frames, but configured for 30
+2025-06-24 03:57:26,283 - app.services.ml_service - WARNING - Model expects 128x128 images, but configured for 224x224
+2025-06-24 03:57:26,283 - app.services.ml_service - INFO - ML Service initialized with 1482 classes
+2025-06-24 03:57:26,283 - app.main - INFO - Model loaded successfully
+2025-06-24 03:57:26,283 - app.main - INFO - SignSafe API startup complete
+2025-06-24 03:58:56,884 - app.routers.prediction - INFO - Processing video file: 02124.mp4
+2025-06-24 03:58:57,186 - app.services.video_service - INFO - [VideoService] Total frames extracted: 74
+2025-06-24 03:58:57,188 - app.services.video_service - INFO - [VideoService] Sampled frames count: 30
+2025-06-24 03:58:57,294 - app.services.video_service - INFO - [VideoService] Extracted frames shape: (30, 224, 224, 3)
+2025-06-24 03:58:57,295 - app.routers.prediction - INFO - Video processing completed in 0.41 seconds
+2025-06-24 03:58:57,295 - app.routers.prediction - INFO - Video frames shape before prediction: (30, 224, 224, 3)
+2025-06-24 03:58:57,690 - app.services.ml_service - ERROR - Error during prediction: Input 0 of layer "functional_2" is incompatible with the layer: expected shape=(None, 16, 128, 128, 3), found shape=(1, 30, 224, 224, 3)
+2025-06-24 03:58:57,691 - app.routers.prediction - ERROR - Unexpected error during prediction: Prediction failed: Input 0 of layer "functional_2" is incompatible with the layer: expected shape=(None, 16, 128, 128, 3), found shape=(1, 30, 224, 224, 3)
+2025-06-24 04:06:33,364 - app.main - INFO - Shutting down SignSafe API...
+2025-06-24 04:09:58,707 - app.main - INFO - Starting SignSafe API...
+2025-06-24 04:09:58,708 - app.main - INFO - Model path: data/models/signsafe_model.h5
+2025-06-24 04:09:58,708 - app.main - INFO - Labels path: data/labels/class_index.json
+2025-06-24 04:09:58,708 - app.main - INFO - Loading ML model...
+2025-06-24 04:09:58,709 - app.services.ml_service - INFO - Loading model from: data/models/signsafe_model.h5
+2025-06-24 04:10:01,091 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-24 04:10:01,332 - app.services.ml_service - INFO - Model loaded successfully
+2025-06-24 04:10:01,334 - app.services.ml_service - INFO - Loaded 1482 class labels
+2025-06-24 04:10:01,334 - app.services.ml_service - INFO - Model input shape: (None, 16, 128, 128, 3)
+2025-06-24 04:10:01,335 - app.services.ml_service - WARNING - Model expects 16 frames, but configured for 30
+2025-06-24 04:10:01,335 - app.services.ml_service - WARNING - Model expects 128x128 images, but configured for 224x224
+2025-06-24 04:10:01,335 - app.services.ml_service - INFO - ML Service initialized with 1482 classes
+2025-06-24 04:10:01,335 - app.main - INFO - Model loaded successfully
+2025-06-24 04:10:01,336 - app.main - INFO - SignSafe API startup complete
+2025-06-24 04:10:22,966 - app.routers.prediction - INFO - Processing video file: 02124.mp4
+2025-06-24 04:10:23,052 - app.services.video_service - INFO - [VideoService] Total frames extracted: 74
+2025-06-24 04:10:23,053 - app.services.video_service - INFO - [VideoService] Sampled frames count: 16
+2025-06-24 04:10:23,069 - app.services.video_service - INFO - [VideoService] Extracted frames shape: (16, 128, 128, 3)
+2025-06-24 04:10:23,069 - app.routers.prediction - INFO - Video processing completed in 0.10 seconds
+2025-06-24 04:10:23,069 - app.routers.prediction - INFO - Video frames shape before prediction: (16, 128, 128, 3)
+2025-06-24 04:10:50,031 - app.routers.prediction - INFO - Prediction completed: 'structure' with confidence 0.061
+2025-06-24 04:12:18,297 - app.routers.prediction - INFO - Processing video file: 02125.mp4
+2025-06-24 04:12:19,120 - app.services.video_service - INFO - [VideoService] Total frames extracted: 38
+2025-06-24 04:12:19,121 - app.services.video_service - INFO - [VideoService] Sampled frames count: 16
+2025-06-24 04:12:19,169 - app.services.video_service - INFO - [VideoService] Extracted frames shape: (16, 128, 128, 3)
+2025-06-24 04:12:19,171 - app.routers.prediction - INFO - Video processing completed in 0.87 seconds
+2025-06-24 04:12:19,171 - app.routers.prediction - INFO - Video frames shape before prediction: (16, 128, 128, 3)
+2025-06-24 04:12:19,707 - app.routers.prediction - INFO - Prediction completed: 'structure' with confidence 0.059
+2025-06-24 04:12:28,897 - app.routers.prediction - INFO - Processing video file: 02125.mp4
+2025-06-24 04:12:29,610 - app.services.video_service - INFO - [VideoService] Total frames extracted: 38
+2025-06-24 04:12:29,611 - app.services.video_service - INFO - [VideoService] Sampled frames count: 16
+2025-06-24 04:12:29,636 - app.services.video_service - INFO - [VideoService] Extracted frames shape: (16, 128, 128, 3)
+2025-06-24 04:12:29,636 - app.routers.prediction - INFO - Video processing completed in 0.74 seconds
+2025-06-24 04:12:29,637 - app.routers.prediction - INFO - Video frames shape before prediction: (16, 128, 128, 3)
+2025-06-24 04:12:30,399 - app.routers.prediction - INFO - Prediction completed: 'structure' with confidence 0.059
+2025-06-24 04:16:30,565 - app.routers.prediction - INFO - Processing video file: 00335.mp4
+2025-06-24 04:16:30,675 - app.services.video_service - INFO - [VideoService] Total frames extracted: 58
+2025-06-24 04:16:30,677 - app.services.video_service - INFO - [VideoService] Sampled frames count: 16
+2025-06-24 04:16:30,698 - app.services.video_service - INFO - [VideoService] Extracted frames shape: (16, 128, 128, 3)
+2025-06-24 04:16:30,703 - app.routers.prediction - INFO - Video processing completed in 0.14 seconds
+2025-06-24 04:16:30,704 - app.routers.prediction - INFO - Video frames shape before prediction: (16, 128, 128, 3)
+2025-06-24 04:16:31,295 - app.routers.prediction - INFO - Prediction completed: 'structure' with confidence 0.060
+2025-06-24 04:18:40,946 - app.routers.prediction - INFO - Processing video file: 02125.mp4
+2025-06-24 04:18:41,436 - app.services.video_service - INFO - [VideoService] Total frames extracted: 38
+2025-06-24 04:18:41,436 - app.services.video_service - INFO - [VideoService] Sampled frames count: 16
+2025-06-24 04:18:41,477 - app.services.video_service - INFO - [VideoService] Extracted frames shape: (16, 128, 128, 3)
+2025-06-24 04:18:41,478 - app.routers.prediction - INFO - Video processing completed in 0.53 seconds
+2025-06-24 04:18:41,479 - app.routers.prediction - INFO - Video frames shape before prediction: (16, 128, 128, 3)
+2025-06-24 04:18:41,882 - app.routers.prediction - INFO - Prediction completed: 'structure' with confidence 0.059
+2025-06-24 04:23:50,171 - app.main - INFO - Shutting down SignSafe API...
+2025-06-24 04:23:55,299 - app.main - INFO - Starting SignSafe API...
+2025-06-24 04:23:55,299 - app.main - INFO - Model path: data/models/signsafe_model.h5
+2025-06-24 04:23:55,299 - app.main - INFO - Labels path: data/labels/class_index.json
+2025-06-24 04:23:55,300 - app.main - INFO - Loading ML model...
+2025-06-24 04:23:55,300 - app.services.ml_service - INFO - Loading model from: data/models/signsafe_model.h5
+2025-06-24 04:23:56,954 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-24 04:23:57,039 - app.services.ml_service - INFO - Model loaded successfully
+2025-06-24 04:23:57,042 - app.services.ml_service - INFO - Loaded 1482 class labels
+2025-06-24 04:23:57,042 - app.services.ml_service - INFO - Model input shape: (None, 16, 128, 128, 3)
+2025-06-24 04:23:57,042 - app.services.ml_service - WARNING - Model expects 16 frames, but configured for 30
+2025-06-24 04:23:57,042 - app.services.ml_service - WARNING - Model expects 128x128 images, but configured for 224x224
+2025-06-24 04:23:57,043 - app.services.ml_service - INFO - ML Service initialized with 1482 classes
+2025-06-24 04:23:57,043 - app.main - INFO - Model loaded successfully
+2025-06-24 04:23:57,043 - app.main - INFO - SignSafe API startup complete
+2025-06-24 04:24:32,093 - app.main - INFO - Shutting down SignSafe API...
+2025-06-24 04:24:41,331 - app.main - INFO - Starting SignSafe API...
+2025-06-24 04:24:41,331 - app.main - INFO - Model path: data/models/signsafe_model.h5
+2025-06-24 04:24:41,332 - app.main - INFO - Labels path: data/labels/class_index.json
+2025-06-24 04:24:41,332 - app.main - INFO - Loading ML model...
+2025-06-24 04:24:41,332 - app.services.ml_service - INFO - Loading model from: data/models/signsafe_model.h5
+2025-06-24 04:24:43,099 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-24 04:24:43,201 - app.services.ml_service - INFO - Model loaded successfully
+2025-06-24 04:24:43,204 - app.services.ml_service - INFO - Loaded 1482 class labels
+2025-06-24 04:24:43,204 - app.services.ml_service - INFO - Model input shape: (None, 16, 128, 128, 3)
+2025-06-24 04:24:43,204 - app.services.ml_service - WARNING - Model expects 16 frames, but configured for 30
+2025-06-24 04:24:43,204 - app.services.ml_service - WARNING - Model expects 128x128 images, but configured for 224x224
+2025-06-24 04:24:43,205 - app.services.ml_service - INFO - ML Service initialized with 1482 classes
+2025-06-24 04:24:43,205 - app.main - INFO - Model loaded successfully
+2025-06-24 04:24:43,206 - app.main - INFO - SignSafe API startup complete
+2025-06-24 04:25:00,594 - app.routers.prediction - INFO - Processing video file: 00335.mp4
+2025-06-24 04:25:00,678 - app.services.video_service - INFO - [VideoService] Total frames extracted: 58
+2025-06-24 04:25:00,680 - app.services.video_service - INFO - [VideoService] Sampled frames count: 16
+2025-06-24 04:25:00,706 - app.services.video_service - INFO - [VideoService] Extracted frames shape: (16, 128, 128, 3)
+2025-06-24 04:25:00,709 - app.routers.prediction - INFO - Video processing completed in 0.11 seconds
+2025-06-24 04:25:00,709 - app.routers.prediction - INFO - Video frames shape before prediction: (16, 128, 128, 3)
+2025-06-24 04:25:25,727 - app.routers.prediction - INFO - Prediction completed: 'structure' with confidence 0.060
+2025-06-24 04:25:40,248 - app.routers.prediction - INFO - Processing video file: 02124.mp4
+2025-06-24 04:25:40,349 - app.services.video_service - INFO - [VideoService] Total frames extracted: 74
+2025-06-24 04:25:40,350 - app.services.video_service - INFO - [VideoService] Sampled frames count: 16
+2025-06-24 04:25:40,361 - app.services.video_service - INFO - [VideoService] Extracted frames shape: (16, 128, 128, 3)
+2025-06-24 04:25:40,363 - app.routers.prediction - INFO - Video processing completed in 0.12 seconds
+2025-06-24 04:25:40,363 - app.routers.prediction - INFO - Video frames shape before prediction: (16, 128, 128, 3)
+2025-06-24 04:25:40,815 - app.routers.prediction - INFO - Prediction completed: 'structure' with confidence 0.061
+2025-06-24 04:28:20,239 - app.routers.prediction - INFO - Processing video file: 06120.mp4
+2025-06-24 04:28:20,495 - app.services.video_service - INFO - [VideoService] Total frames extracted: 115
+2025-06-24 04:28:20,495 - app.services.video_service - INFO - [VideoService] Sampled frames count: 16
+2025-06-24 04:28:20,502 - app.services.video_service - INFO - [VideoService] Extracted frames shape: (16, 128, 128, 3)
+2025-06-24 04:28:20,503 - app.routers.prediction - INFO - Video processing completed in 0.26 seconds
+2025-06-24 04:28:20,503 - app.routers.prediction - INFO - Video frames shape before prediction: (16, 128, 128, 3)
+2025-06-24 04:28:20,938 - app.routers.prediction - INFO - Prediction completed: 'structure' with confidence 0.060
+2025-06-24 09:36:17,326 - app.main - INFO - Starting SignSafe API...
+2025-06-24 09:36:17,345 - app.main - INFO - Model path: data/models/signsafe_model.h5
+2025-06-24 09:36:17,346 - app.main - INFO - Labels path: data/labels/class_index.json
+2025-06-24 09:36:17,346 - app.main - INFO - Loading ML model...
+2025-06-24 09:36:17,346 - app.services.ml_service - INFO - Loading model from: data/models/signsafe_model.h5
+2025-06-24 09:36:19,416 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-24 09:36:19,659 - app.services.ml_service - INFO - Model loaded successfully
+2025-06-24 09:36:19,674 - app.services.ml_service - INFO - Loaded 1482 class labels
+2025-06-24 09:36:19,675 - app.services.ml_service - INFO - Model input shape: (None, 16, 128, 128, 3)
+2025-06-24 09:36:19,675 - app.services.ml_service - WARNING - Model expects 16 frames, but configured for 30
+2025-06-24 09:36:19,675 - app.services.ml_service - WARNING - Model expects 128x128 images, but configured for 224x224
+2025-06-24 09:36:19,675 - app.services.ml_service - INFO - ML Service initialized with 1482 classes
+2025-06-24 09:36:19,676 - app.main - INFO - Model loaded successfully
+2025-06-24 09:36:19,676 - app.main - INFO - SignSafe API startup complete
+2025-06-24 09:36:44,452 - app.routers.prediction - INFO - Processing video file: 06120.mp4
+2025-06-24 09:36:45,217 - app.services.video_service - INFO - [VideoService] Total frames extracted: 115
+2025-06-24 09:36:45,218 - app.services.video_service - INFO - [VideoService] Sampled frames count: 16
+2025-06-24 09:36:45,354 - app.services.video_service - INFO - [VideoService] Extracted frames shape: (16, 128, 128, 3)
+2025-06-24 09:36:45,355 - app.routers.prediction - INFO - Video processing completed in 0.90 seconds
+2025-06-24 09:36:45,355 - app.routers.prediction - INFO - Video frames shape before prediction: (16, 128, 128, 3)
+2025-06-24 09:37:07,662 - app.routers.prediction - INFO - Prediction completed: 'structure' with confidence 0.060
+2025-07-01 03:03:16,412 - app.main - INFO - Starting SignSafe API...
+2025-07-01 03:03:16,710 - app.main - INFO - Model path: data/models/sign_language_model.h5
+2025-07-01 03:03:16,710 - app.main - INFO - Labels path: data/labels/class_index.json
+2025-07-01 03:03:16,710 - app.main - INFO - Loading ML model...
+2025-07-01 03:03:16,711 - app.services.ml_service - INFO - Loading model from: data/models/sign_language_model.h5
+2025-07-01 03:03:22,181 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-01 03:03:22,388 - app.services.ml_service - INFO - Model loaded successfully
+2025-07-01 03:03:22,547 - app.services.ml_service - INFO - Loaded 1482 class labels
+2025-07-01 03:03:22,548 - app.services.ml_service - INFO - Model input shape: (None, 128, 128, 3)
+2025-07-01 03:03:22,548 - app.services.ml_service - WARNING - Unexpected model input shape: (None, 128, 128, 3)
+2025-07-01 03:03:22,548 - app.services.ml_service - WARNING - Model expects 128 frames, but configured for 30
+2025-07-01 03:03:22,548 - app.services.ml_service - WARNING - Model expects 128x3 images, but configured for 224x224
+2025-07-01 03:03:22,548 - app.services.ml_service - INFO - ML Service initialized with 1482 classes
+2025-07-01 03:03:22,549 - app.main - INFO - Model loaded successfully
+2025-07-01 03:03:22,549 - app.main - INFO - SignSafe API startup complete
+2025-07-01 03:10:52,325 - app.routers.prediction - INFO - Processing video file: 06120(1).mp4
+2025-07-01 03:10:56,664 - app.services.video_service - INFO - [VideoService] Total frames extracted: 115
+2025-07-01 03:10:56,923 - app.services.video_service - INFO - [VideoService] Sampled frames count: 16
+2025-07-01 03:10:57,323 - app.services.video_service - INFO - [VideoService] Extracted frames shape: (16, 128, 128, 3)
+2025-07-01 03:10:57,324 - app.routers.prediction - INFO - Video processing completed in 5.00 seconds
+2025-07-01 03:10:57,324 - app.routers.prediction - INFO - Video frames shape before prediction: (16, 128, 128, 3)
+2025-07-01 03:11:20,024 - app.services.ml_service - ERROR - Error during prediction: Exception encountered when calling Sequential.call().
+
+[1mInvalid input shape for input Tensor("data:0", shape=(1, 16, 128, 128, 3), dtype=float32). Expected shape (None, 128, 128, 3), but input has incompatible shape (1, 16, 128, 128, 3)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 16, 128, 128, 3), dtype=float32)
+  • training=False
+  • mask=None
+  • kwargs=<class 'inspect._empty'>
+2025-07-01 03:11:20,024 - app.routers.prediction - ERROR - Unexpected error during prediction: Prediction failed: Exception encountered when calling Sequential.call().
+
+[1mInvalid input shape for input Tensor("data:0", shape=(1, 16, 128, 128, 3), dtype=float32). Expected shape (None, 128, 128, 3), but input has incompatible shape (1, 16, 128, 128, 3)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 16, 128, 128, 3), dtype=float32)
+  • training=False
+  • mask=None
+  • kwargs=<class 'inspect._empty'>
+2025-07-01 03:17:52,054 - app.routers.prediction - INFO - Processing video file: 02124.mp4
+2025-07-01 03:17:58,008 - app.services.video_service - INFO - [VideoService] Total frames extracted: 74
+2025-07-01 03:17:59,582 - app.services.video_service - INFO - [VideoService] Sampled frames count: 16
+2025-07-01 03:18:00,157 - app.services.video_service - INFO - [VideoService] Extracted frames shape: (16, 128, 128, 3)
+2025-07-01 03:18:00,158 - app.routers.prediction - INFO - Video processing completed in 8.10 seconds
+2025-07-01 03:18:00,158 - app.routers.prediction - INFO - Video frames shape before prediction: (16, 128, 128, 3)
+2025-07-01 03:18:28,605 - app.services.ml_service - ERROR - Error during prediction: Exception encountered when calling Sequential.call().
+
+[1mInvalid input shape for input Tensor("data:0", shape=(1, 16, 128, 128, 3), dtype=float32). Expected shape (None, 128, 128, 3), but input has incompatible shape (1, 16, 128, 128, 3)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 16, 128, 128, 3), dtype=float32)
+  • training=False
+  • mask=None
+  • kwargs=<class 'inspect._empty'>
+2025-07-01 03:18:28,606 - app.routers.prediction - ERROR - Unexpected error during prediction: Prediction failed: Exception encountered when calling Sequential.call().
+
+[1mInvalid input shape for input Tensor("data:0", shape=(1, 16, 128, 128, 3), dtype=float32). Expected shape (None, 128, 128, 3), but input has incompatible shape (1, 16, 128, 128, 3)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 16, 128, 128, 3), dtype=float32)
+  • training=False
+  • mask=None
+  • kwargs=<class 'inspect._empty'>
+2025-07-01 03:40:58,796 - app.main - INFO - Starting SignSafe API...
+2025-07-01 03:40:58,829 - app.main - INFO - Model path: data/models/sign_language_model.h5
+2025-07-01 03:40:58,829 - app.main - INFO - Labels path: data/labels/class_map.json
+2025-07-01 03:40:58,830 - app.main - INFO - Loading ML model...
+2025-07-01 03:40:58,830 - app.services.ml_service - INFO - Loading model from: data/models/sign_language_model.h5
+2025-07-01 03:41:00,035 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-01 03:41:00,069 - app.services.ml_service - INFO - Model loaded successfully
+2025-07-01 03:41:00,070 - app.services.ml_service - ERROR - Error loading class labels: '<=' not supported between instances of 'int' and 'dict'
+2025-07-01 03:41:00,070 - app.services.ml_service - ERROR - Failed to load class labels
+2025-07-01 03:41:00,070 - app.main - ERROR - Failed to load model
+2025-07-01 03:41:00,071 - app.main - INFO - SignSafe API startup complete
+2025-07-01 03:41:20,141 - app.main - INFO - Starting SignSafe API...
+2025-07-01 03:41:20,141 - app.main - INFO - Model path: data/models/sign_language_model.h5
+2025-07-01 03:41:20,141 - app.main - INFO - Labels path: data/labels/class_map.json
+2025-07-01 03:41:20,142 - app.main - INFO - Loading ML model...
+2025-07-01 03:41:20,142 - app.services.ml_service - INFO - Loading model from: data/models/sign_language_model.h5
+2025-07-01 03:41:20,435 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-01 03:41:20,444 - app.services.ml_service - INFO - Model loaded successfully
+2025-07-01 03:41:20,444 - app.services.ml_service - ERROR - Error loading class labels: '<=' not supported between instances of 'int' and 'dict'
+2025-07-01 03:41:20,445 - app.services.ml_service - ERROR - Failed to load class labels
+2025-07-01 03:41:20,445 - app.main - ERROR - Failed to load model
+2025-07-01 03:41:20,445 - app.main - INFO - SignSafe API startup complete
+2025-07-01 03:41:48,396 - app.main - INFO - Shutting down SignSafe API...
+2025-07-01 03:41:55,266 - app.main - INFO - Starting SignSafe API...
+2025-07-01 03:41:55,266 - app.main - INFO - Model path: data/models/sign_language_model.h5
+2025-07-01 03:41:55,266 - app.main - INFO - Labels path: data/labels/class_map.json
+2025-07-01 03:41:55,266 - app.main - INFO - Loading ML model...
+2025-07-01 03:41:55,267 - app.services.ml_service - INFO - Loading model from: data/models/sign_language_model.h5
+2025-07-01 03:41:55,536 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-01 03:41:55,545 - app.services.ml_service - INFO - Model loaded successfully
+2025-07-01 03:41:55,546 - app.services.ml_service - ERROR - Error loading class labels: '<=' not supported between instances of 'int' and 'dict'
+2025-07-01 03:41:55,546 - app.services.ml_service - ERROR - Failed to load class labels
+2025-07-01 03:41:55,546 - app.main - ERROR - Failed to load model
+2025-07-01 03:41:55,546 - app.main - INFO - SignSafe API startup complete
+2025-07-01 03:43:27,503 - app.main - INFO - Shutting down SignSafe API...
+2025-07-01 03:43:39,276 - app.main - INFO - Starting SignSafe API...
+2025-07-01 03:43:39,276 - app.main - INFO - Model path: data/models/sign_language_model.h5
+2025-07-01 03:43:39,276 - app.main - INFO - Labels path: data/labels/class_map.json
+2025-07-01 03:43:39,276 - app.main - INFO - Loading ML model...
+2025-07-01 03:43:39,276 - app.services.ml_service - INFO - Loading model from: data/models/sign_language_model.h5
+2025-07-01 03:43:39,586 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-01 03:43:39,595 - app.services.ml_service - INFO - Model loaded successfully
+2025-07-01 03:43:39,596 - app.services.ml_service - ERROR - Error loading class labels: '<=' not supported between instances of 'int' and 'str'
+2025-07-01 03:43:39,596 - app.services.ml_service - ERROR - Failed to load class labels
+2025-07-01 03:43:39,596 - app.main - ERROR - Failed to load model
+2025-07-01 03:43:39,596 - app.main - INFO - SignSafe API startup complete
+2025-07-01 03:44:22,510 - app.main - INFO - Shutting down SignSafe API...
+2025-07-01 03:44:28,622 - app.main - INFO - Starting SignSafe API...
+2025-07-01 03:44:28,623 - app.main - INFO - Model path: data/models/sign_language_model.h5
+2025-07-01 03:44:28,623 - app.main - INFO - Labels path: data/labels/class_map.json
+2025-07-01 03:44:28,623 - app.main - INFO - Loading ML model...
+2025-07-01 03:44:28,623 - app.services.ml_service - INFO - Loading model from: data/models/sign_language_model.h5
+2025-07-01 03:44:28,916 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-01 03:44:28,924 - app.services.ml_service - INFO - Model loaded successfully
+2025-07-01 03:44:28,925 - app.services.ml_service - ERROR - Error loading class labels: invalid literal for int() with base 10: 'about'
+2025-07-01 03:44:28,925 - app.services.ml_service - ERROR - Failed to load class labels
+2025-07-01 03:44:28,925 - app.main - ERROR - Failed to load model
+2025-07-01 03:44:28,925 - app.main - INFO - SignSafe API startup complete
+2025-07-01 03:48:18,156 - app.main - INFO - Shutting down SignSafe API...
+2025-07-01 03:48:25,058 - app.main - INFO - Starting SignSafe API...
+2025-07-01 03:48:25,058 - app.main - INFO - Model path: data/models/sign_language_model.h5
+2025-07-01 03:48:25,058 - app.main - INFO - Labels path: data/labels/class_map.json
+2025-07-01 03:48:25,058 - app.main - INFO - Loading ML model...
+2025-07-01 03:48:25,058 - app.services.ml_service - INFO - Loading model from: data/models/sign_language_model.h5
+2025-07-01 03:48:25,321 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-01 03:48:25,330 - app.services.ml_service - INFO - Model loaded successfully
+2025-07-01 03:48:25,330 - app.services.ml_service - ERROR - Error loading class labels: invalid literal for int() with base 10: 'about'
+2025-07-01 03:48:25,330 - app.services.ml_service - ERROR - Failed to load class labels
+2025-07-01 03:48:25,330 - app.main - ERROR - Failed to load model
+2025-07-01 03:48:25,330 - app.main - INFO - SignSafe API startup complete
+2025-07-01 03:49:46,202 - app.main - INFO - Starting SignSafe API...
+2025-07-01 03:49:46,216 - app.main - INFO - Model path: data/models/sign_language_model.h5
+2025-07-01 03:49:46,218 - app.main - INFO - Labels path: data/labels/class_map.json
+2025-07-01 03:49:46,220 - app.main - INFO - Loading ML model...
+2025-07-01 03:49:46,225 - app.services.ml_service - INFO - Loading model from: data/models/sign_language_model.h5
+2025-07-01 03:49:46,807 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-01 03:49:46,823 - app.services.ml_service - INFO - Model loaded successfully
+2025-07-01 03:49:46,824 - app.services.ml_service - ERROR - Error loading class labels: invalid literal for int() with base 10: 'about'
+2025-07-01 03:49:46,824 - app.services.ml_service - ERROR - Failed to load class labels
+2025-07-01 03:49:46,824 - app.main - ERROR - Failed to load model
+2025-07-01 03:49:46,825 - app.main - INFO - SignSafe API startup complete
+2025-07-01 03:51:02,491 - app.main - INFO - Shutting down SignSafe API...
+2025-07-01 03:51:08,703 - app.main - INFO - Starting SignSafe API...
+2025-07-01 03:51:08,704 - app.main - INFO - Model path: data/models/sign_language_model.h5
+2025-07-01 03:51:08,704 - app.main - INFO - Labels path: data/labels/class_map.json
+2025-07-01 03:51:08,704 - app.main - INFO - Loading ML model...
+2025-07-01 03:51:08,704 - app.services.ml_service - INFO - Loading model from: data/models/sign_language_model.h5
+2025-07-01 03:51:08,964 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-01 03:51:08,972 - app.services.ml_service - INFO - Model loaded successfully
+2025-07-01 03:51:08,973 - app.services.ml_service - ERROR - Error loading class labels: invalid literal for int() with base 10: 'about'
+2025-07-01 03:51:08,973 - app.services.ml_service - ERROR - Failed to load class labels
+2025-07-01 03:51:08,973 - app.main - ERROR - Failed to load model
+2025-07-01 03:51:08,973 - app.main - INFO - SignSafe API startup complete
+2025-07-01 03:52:35,120 - app.main - INFO - Shutting down SignSafe API...
+2025-07-01 03:52:41,542 - app.main - INFO - Starting SignSafe API...
+2025-07-01 03:52:41,542 - app.main - INFO - Model path: data/models/sign_language_model.h5
+2025-07-01 03:52:41,542 - app.main - INFO - Labels path: data/labels/class_map.json
+2025-07-01 03:52:41,542 - app.main - INFO - Loading ML model...
+2025-07-01 03:52:41,542 - app.services.ml_service - INFO - Loading model from: data/models/sign_language_model.h5
+2025-07-01 03:52:41,827 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-01 03:52:41,836 - app.services.ml_service - INFO - Model loaded successfully
+2025-07-01 03:52:41,837 - app.services.ml_service - ERROR - Error loading class labels: invalid literal for int() with base 10: 'about'
+2025-07-01 03:52:41,837 - app.services.ml_service - ERROR - Failed to load class labels
+2025-07-01 03:52:41,837 - app.main - ERROR - Failed to load model
+2025-07-01 03:52:41,837 - app.main - INFO - SignSafe API startup complete
+2025-07-01 03:56:03,969 - app.main - INFO - Shutting down SignSafe API...
+2025-07-01 03:56:10,716 - app.main - INFO - Starting SignSafe API...
+2025-07-01 03:56:10,716 - app.main - INFO - Model path: data/models/sign_language_model.h5
+2025-07-01 03:56:10,716 - app.main - INFO - Labels path: data/labels/class_map.json
+2025-07-01 03:56:10,717 - app.main - INFO - Loading ML model...
+2025-07-01 03:56:10,717 - app.services.ml_service - INFO - Loading model from: data/models/sign_language_model.h5
+2025-07-01 03:56:10,972 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-01 03:56:10,980 - app.services.ml_service - INFO - Model loaded successfully
+2025-07-01 03:56:10,981 - app.services.ml_service - INFO - Loaded 94 class labels
+2025-07-01 03:56:10,981 - app.services.ml_service - INFO - Model input shape: (None, 128, 128, 3)
+2025-07-01 03:56:10,981 - app.services.ml_service - WARNING - Unexpected model input shape: (None, 128, 128, 3)
+2025-07-01 03:56:10,981 - app.services.ml_service - WARNING - Model expects 128 frames, but configured for 16
+2025-07-01 03:56:10,983 - app.services.ml_service - WARNING - Model expects 128x3 images, but configured for 128x128
+2025-07-01 03:56:10,984 - app.services.ml_service - INFO - ML Service initialized with 94 classes
+2025-07-01 03:56:10,984 - app.main - INFO - Model loaded successfully
+2025-07-01 03:56:10,984 - app.main - INFO - SignSafe API startup complete
+2025-07-01 03:57:33,588 - app.main - INFO - Shutting down SignSafe API...
+2025-07-01 04:09:37,249 - app.main - INFO - Starting SignSafe API...
+2025-07-01 04:09:37,249 - app.main - INFO - Model path: data/models/sign_language_model.h5
+2025-07-01 04:09:37,249 - app.main - INFO - Labels path: data/labels/class_map.json
+2025-07-01 04:09:37,249 - app.main - INFO - Loading ML model...
+2025-07-01 04:09:37,250 - app.services.ml_service - INFO - Loading model from: data/models/sign_language_model.h5
+2025-07-01 04:09:37,581 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-01 04:09:37,590 - app.services.ml_service - INFO - Model loaded successfully
+2025-07-01 04:09:37,591 - app.services.ml_service - INFO - Loaded 94 class labels
+2025-07-01 04:09:37,591 - app.services.ml_service - INFO - Model input shape: (None, 128, 128, 3)
+2025-07-01 04:09:37,591 - app.services.ml_service - WARNING - Unexpected model input shape: (None, 128, 128, 3)
+2025-07-01 04:09:37,592 - app.services.ml_service - WARNING - Model expects 128 frames, but configured for 16
+2025-07-01 04:09:37,592 - app.services.ml_service - WARNING - Model expects 128x3 images, but configured for 128x128
+2025-07-01 04:09:37,592 - app.services.ml_service - INFO - ML Service initialized with 94 classes
+2025-07-01 04:09:37,592 - app.main - INFO - Model loaded successfully
+2025-07-01 04:09:37,592 - app.main - INFO - SignSafe API startup complete
+2025-07-01 04:16:10,582 - app.main - INFO - Shutting down SignSafe API...
+2025-07-01 04:16:15,514 - app.main - INFO - Starting SignSafe API...
+2025-07-01 04:16:15,514 - app.main - INFO - Model path: data/models/sign_language_model.h5
+2025-07-01 04:16:15,515 - app.main - INFO - Labels path: data/labels/class_map.json
+2025-07-01 04:16:15,515 - app.main - INFO - Loading ML model...
+2025-07-01 04:16:15,515 - app.services.ml_service - INFO - Loading model from: data/models/sign_language_model.h5
+2025-07-01 04:16:16,008 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-01 04:16:16,023 - app.services.ml_service - INFO - Model loaded successfully
+2025-07-01 04:16:16,024 - app.services.ml_service - INFO - Loaded 94 class labels
+2025-07-01 04:16:16,025 - app.services.ml_service - INFO - Model input shape: (None, 128, 128, 3)
+2025-07-01 04:16:16,026 - app.services.ml_service - INFO - ML Service initialized with 94 classes
+2025-07-01 04:16:16,026 - app.main - INFO - Model loaded successfully
+2025-07-01 04:16:16,026 - app.main - INFO - SignSafe API startup complete
+2025-07-01 04:17:20,454 - app.main - INFO - Shutting down SignSafe API...
+2025-07-01 04:17:27,982 - app.main - INFO - Starting SignSafe API...
+2025-07-01 04:17:27,982 - app.main - INFO - Model path: data/models/sign_language_model.h5
+2025-07-01 04:17:27,982 - app.main - INFO - Labels path: data/labels/class_map.json
+2025-07-01 04:17:27,982 - app.main - INFO - Loading ML model...
+2025-07-01 04:17:27,983 - app.services.ml_service - INFO - Loading model from: data/models/sign_language_model.h5
+2025-07-01 04:17:28,230 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-01 04:17:28,239 - app.services.ml_service - INFO - Model loaded successfully
+2025-07-01 04:17:28,239 - app.services.ml_service - INFO - Loaded 94 class labels
+2025-07-01 04:17:28,239 - app.services.ml_service - INFO - Model input shape: (None, 128, 128, 3)
+2025-07-01 04:17:28,240 - app.services.ml_service - INFO - ML Service initialized with 94 classes
+2025-07-01 04:17:28,240 - app.main - INFO - Model loaded successfully
+2025-07-01 04:17:28,240 - app.main - INFO - SignSafe API startup complete
+2025-07-01 04:18:14,286 - app.routers.prediction - INFO - Processing video file: 06120.mp4
+2025-07-01 04:18:15,108 - app.services.video_service - INFO - [VideoService] Total frames extracted: 115
+2025-07-01 04:18:15,109 - app.services.video_service - INFO - [VideoService] Sampled frames count: 16
+2025-07-01 04:18:15,644 - app.services.video_service - INFO - [VideoService] Extracted frames shape: (16, 128, 128, 3)
+2025-07-01 04:18:15,645 - app.routers.prediction - INFO - Video processing completed in 1.36 seconds
+2025-07-01 04:18:15,645 - app.routers.prediction - INFO - Video frames shape before prediction: (16, 128, 128, 3)
+2025-07-01 04:18:16,302 - app.services.ml_service - ERROR - Error during prediction: Exception encountered when calling Sequential.call().
+
+[1mInvalid input shape for input Tensor("data:0", shape=(1, 16, 128, 128, 3), dtype=float32). Expected shape (None, 128, 128, 3), but input has incompatible shape (1, 16, 128, 128, 3)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 16, 128, 128, 3), dtype=float32)
+  • training=False
+  • mask=None
+  • kwargs=<class 'inspect._empty'>
+2025-07-01 04:18:16,303 - app.routers.prediction - ERROR - Unexpected error during prediction: Prediction failed: Exception encountered when calling Sequential.call().
+
+[1mInvalid input shape for input Tensor("data:0", shape=(1, 16, 128, 128, 3), dtype=float32). Expected shape (None, 128, 128, 3), but input has incompatible shape (1, 16, 128, 128, 3)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 16, 128, 128, 3), dtype=float32)
+  • training=False
+  • mask=None
+  • kwargs=<class 'inspect._empty'>
+2025-07-01 04:22:42,064 - app.main - INFO - Shutting down SignSafe API...
+2025-07-01 04:22:46,615 - app.main - INFO - Starting SignSafe API...
+2025-07-01 04:22:46,615 - app.main - INFO - Model path: data/models/sign_language_model.h5
+2025-07-01 04:22:46,615 - app.main - INFO - Labels path: data/labels/class_map.json
+2025-07-01 04:22:46,616 - app.main - INFO - Loading ML model...
+2025-07-01 04:22:46,616 - app.services.ml_service - INFO - Loading model from: data/models/sign_language_model.h5
+2025-07-01 04:22:46,911 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-01 04:22:46,921 - app.services.ml_service - INFO - Model loaded successfully
+2025-07-01 04:22:46,925 - app.services.ml_service - INFO - Loaded 94 class labels
+2025-07-01 04:22:46,927 - app.services.ml_service - INFO - Model input shape: (None, 128, 128, 3)
+2025-07-01 04:22:46,928 - app.services.ml_service - INFO - ML Service initialized with 94 classes
+2025-07-01 04:22:46,928 - app.main - INFO - Model loaded successfully
+2025-07-01 04:22:46,929 - app.main - INFO - SignSafe API startup complete
+2025-07-01 04:23:01,896 - app.main - INFO - Shutting down SignSafe API...
+2025-07-01 04:23:07,505 - app.main - INFO - Starting SignSafe API...
+2025-07-01 04:23:07,506 - app.main - INFO - Model path: data/models/sign_language_model.h5
+2025-07-01 04:23:07,506 - app.main - INFO - Labels path: data/labels/class_map.json
+2025-07-01 04:23:07,506 - app.main - INFO - Loading ML model...
+2025-07-01 04:23:07,506 - app.services.ml_service - INFO - Loading model from: data/models/sign_language_model.h5
+2025-07-01 04:23:07,777 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-01 04:23:07,786 - app.services.ml_service - INFO - Model loaded successfully
+2025-07-01 04:23:07,787 - app.services.ml_service - INFO - Loaded 94 class labels
+2025-07-01 04:23:07,787 - app.services.ml_service - INFO - Model input shape: (None, 128, 128, 3)
+2025-07-01 04:23:07,787 - app.services.ml_service - INFO - ML Service initialized with 94 classes
+2025-07-01 04:23:07,787 - app.main - INFO - Model loaded successfully
+2025-07-01 04:23:07,787 - app.main - INFO - SignSafe API startup complete
+2025-07-01 04:23:39,158 - app.routers.prediction - INFO - Processing video file: 06120.mp4
+2025-07-01 04:23:39,396 - app.services.video_service - INFO - [VideoService] Total frames extracted: 115
+2025-07-01 04:23:39,397 - app.services.video_service - INFO - [VideoService] Sampled frames count: 16
+2025-07-01 04:23:39,404 - app.services.video_service - INFO - [VideoService] Extracted frames shape: (16, 128, 128, 3)
+2025-07-01 04:23:39,405 - app.routers.prediction - INFO - Video processing completed in 0.25 seconds
+2025-07-01 04:23:39,405 - app.routers.prediction - INFO - Video frames shape before prediction: (16, 128, 128, 3)
+2025-07-01 04:23:40,412 - app.routers.prediction - INFO - Prediction completed: 'h' with confidence 0.591
+2025-07-01 04:24:52,841 - app.routers.prediction - INFO - Processing video file: 06121.mp4
+2025-07-01 04:24:52,926 - app.services.video_service - INFO - [VideoService] Total frames extracted: 43
+2025-07-01 04:24:52,927 - app.services.video_service - INFO - [VideoService] Sampled frames count: 16
+2025-07-01 04:24:52,940 - app.services.video_service - INFO - [VideoService] Extracted frames shape: (16, 128, 128, 3)
+2025-07-01 04:24:52,941 - app.routers.prediction - INFO - Video processing completed in 0.10 seconds
+2025-07-01 04:24:52,941 - app.routers.prediction - INFO - Video frames shape before prediction: (16, 128, 128, 3)
+2025-07-01 04:24:53,226 - app.routers.prediction - INFO - Prediction completed: 'b' with confidence 0.970
+2025-07-01 04:25:44,632 - app.routers.prediction - INFO - Processing video file: 06122.mp4
+2025-07-01 04:25:44,658 - app.services.video_service - INFO - [VideoService] Total frames extracted: 30
+2025-07-01 04:25:44,659 - app.services.video_service - INFO - [VideoService] Sampled frames count: 16
+2025-07-01 04:25:44,665 - app.services.video_service - INFO - [VideoService] Extracted frames shape: (16, 128, 128, 3)
+2025-07-01 04:25:44,666 - app.routers.prediction - INFO - Video processing completed in 0.03 seconds
+2025-07-01 04:25:44,667 - app.routers.prediction - INFO - Video frames shape before prediction: (16, 128, 128, 3)
+2025-07-01 04:25:45,132 - app.routers.prediction - INFO - Prediction completed: 'f' with confidence 0.884
+2025-07-01 04:26:38,457 - app.routers.prediction - INFO - Processing video file: 00414.mp4
+2025-07-01 04:26:38,546 - app.services.video_service - INFO - [VideoService] Total frames extracted: 105
+2025-07-01 04:26:38,547 - app.services.video_service - INFO - [VideoService] Sampled frames count: 16
+2025-07-01 04:26:38,558 - app.services.video_service - INFO - [VideoService] Extracted frames shape: (16, 128, 128, 3)
+2025-07-01 04:26:38,558 - app.routers.prediction - INFO - Video processing completed in 0.10 seconds
+2025-07-01 04:26:38,559 - app.routers.prediction - INFO - Video frames shape before prediction: (16, 128, 128, 3)
+2025-07-01 04:26:38,856 - app.routers.prediction - INFO - Prediction completed: 'about' with confidence 1.000
+2025-07-01 04:27:33,771 - app.routers.prediction - INFO - Processing video file: 00415.mp4
+2025-07-01 04:27:34,593 - app.services.video_service - INFO - [VideoService] Total frames extracted: 38
+2025-07-01 04:27:34,594 - app.services.video_service - INFO - [VideoService] Sampled frames count: 16
+2025-07-01 04:27:34,618 - app.services.video_service - INFO - [VideoService] Extracted frames shape: (16, 128, 128, 3)
+2025-07-01 04:27:34,618 - app.routers.prediction - INFO - Video processing completed in 0.85 seconds
+2025-07-01 04:27:34,618 - app.routers.prediction - INFO - Video frames shape before prediction: (16, 128, 128, 3)
+2025-07-01 04:27:34,944 - app.routers.prediction - INFO - Prediction completed: 'young' with confidence 0.910
+2025-07-01 04:28:20,060 - app.routers.prediction - INFO - Processing video file: 00416.mp4
+2025-07-01 04:28:20,284 - app.services.video_service - INFO - [VideoService] Total frames extracted: 116
+2025-07-01 04:28:20,284 - app.services.video_service - INFO - [VideoService] Sampled frames count: 16
+2025-07-01 04:28:20,296 - app.services.video_service - INFO - [VideoService] Extracted frames shape: (16, 128, 128, 3)
+2025-07-01 04:28:20,297 - app.routers.prediction - INFO - Video processing completed in 0.24 seconds
+2025-07-01 04:28:20,297 - app.routers.prediction - INFO - Video frames shape before prediction: (16, 128, 128, 3)
+2025-07-01 04:28:20,641 - app.routers.prediction - INFO - Prediction completed: 'beautiful' with confidence 0.938
+2025-07-01 04:29:36,815 - app.routers.prediction - INFO - Processing video file: 00421.mp4
+2025-07-01 04:29:36,852 - app.services.video_service - INFO - [VideoService] Total frames extracted: 33
+2025-07-01 04:29:36,853 - app.services.video_service - INFO - [VideoService] Sampled frames count: 16
+2025-07-01 04:29:36,857 - app.services.video_service - INFO - [VideoService] Extracted frames shape: (16, 128, 128, 3)
+2025-07-01 04:29:36,858 - app.routers.prediction - INFO - Video processing completed in 0.04 seconds
+2025-07-01 04:29:36,860 - app.routers.prediction - INFO - Video frames shape before prediction: (16, 128, 128, 3)
+2025-07-01 04:29:37,222 - app.routers.prediction - INFO - Prediction completed: 'today' with confidence 0.957
+2025-07-01 07:11:00,680 - app.routers.prediction - INFO - Processing video file: ASL Vocabulary_ Hello, Good Morning, & Good Afternoon.mp4
+2025-07-01 16:31:38,373 - app.main - INFO - Starting SignSafe API...
+2025-07-01 16:31:38,406 - app.main - INFO - Model path: data/models/sign_language_model.h5
+2025-07-01 16:31:38,406 - app.main - INFO - Labels path: data/labels/class_index.json
+2025-07-01 16:31:38,490 - app.main - INFO - Loading ML model...
+2025-07-01 16:31:38,490 - app.services.ml_service - INFO - Loading model from: data/models/sign_language_model.h5
+2025-07-01 16:31:44,776 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-01 16:31:44,972 - app.services.ml_service - INFO - Model loaded successfully
+2025-07-01 16:31:45,034 - app.services.ml_service - INFO - Loaded 1482 class labels
+2025-07-01 16:31:45,035 - app.services.ml_service - INFO - Model input shape: (None, 128, 128, 3)
+2025-07-01 16:31:45,035 - app.services.ml_service - INFO - ML Service initialized with 1482 classes
+2025-07-01 16:31:45,035 - app.main - INFO - Model loaded successfully
+2025-07-01 16:31:45,035 - app.main - INFO - SignSafe API startup complete
+2025-07-01 16:34:08,653 - app.main - INFO - Starting SignSafe API...
+2025-07-01 16:34:08,676 - app.main - INFO - Model path: data/models/sign_language_model.h5
+2025-07-01 16:34:08,677 - app.main - INFO - Labels path: data/labels/class_index.json
+2025-07-01 16:34:08,677 - app.main - INFO - Loading ML model...
+2025-07-01 16:34:08,677 - app.services.ml_service - INFO - Loading model from: data/models/sign_language_model.h5
+2025-07-01 16:34:15,217 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-01 16:34:15,334 - app.services.ml_service - INFO - Model loaded successfully
+2025-07-01 16:34:15,526 - app.services.ml_service - INFO - Loaded 1482 class labels
+2025-07-01 16:34:15,527 - app.services.ml_service - INFO - Model input shape: (None, 128, 128, 3)
+2025-07-01 16:34:15,527 - app.services.ml_service - INFO - ML Service initialized with 1482 classes
+2025-07-01 16:34:15,527 - app.main - INFO - Model loaded successfully
+2025-07-01 16:34:15,527 - app.main - INFO - SignSafe API startup complete
+2025-07-01 16:37:35,368 - app.routers.prediction - INFO - Processing video file: 06120.mp4
+2025-07-01 16:37:38,354 - app.services.video_service - INFO - [VideoService] Total frames extracted: 115
+2025-07-01 16:37:38,531 - app.services.video_service - INFO - [VideoService] Sampled frames count: 16
+2025-07-01 16:37:38,750 - app.services.video_service - INFO - [VideoService] Extracted frames shape: (16, 128, 128, 3)
+2025-07-01 16:37:38,833 - app.routers.prediction - INFO - Video processing completed in 3.46 seconds
+2025-07-01 16:37:38,833 - app.routers.prediction - INFO - Video frames shape before prediction: (16, 128, 128, 3)
+2025-07-01 16:37:50,682 - app.routers.prediction - INFO - Prediction completed: 'africa' with confidence 0.591
+2025-07-01 16:52:36,811 - app.routers.prediction - INFO - Processing video file: 00414(1).mp4
+2025-07-01 16:52:38,367 - app.services.video_service - INFO - [VideoService] Total frames extracted: 105
+2025-07-01 16:52:38,449 - app.services.video_service - INFO - [VideoService] Sampled frames count: 16
+2025-07-01 16:52:38,641 - app.services.video_service - INFO - [VideoService] Extracted frames shape: (16, 128, 128, 3)
+2025-07-01 16:52:38,641 - app.routers.prediction - INFO - Video processing completed in 1.83 seconds
+2025-07-01 16:52:38,642 - app.routers.prediction - INFO - Video frames shape before prediction: (16, 128, 128, 3)
+2025-07-01 16:52:47,415 - app.routers.prediction - INFO - Prediction completed: 'a_lot' with confidence 1.000
+2025-07-01 16:53:39,096 - app.routers.prediction - INFO - Processing video file: 00415(1).mp4
+2025-07-01 16:53:50,708 - app.services.video_service - INFO - [VideoService] Total frames extracted: 38
+2025-07-01 16:53:50,709 - app.services.video_service - INFO - [VideoService] Sampled frames count: 16
+2025-07-01 16:53:50,744 - app.services.video_service - INFO - [VideoService] Extracted frames shape: (16, 128, 128, 3)
+2025-07-01 16:53:50,745 - app.routers.prediction - INFO - Video processing completed in 11.65 seconds
+2025-07-01 16:53:50,745 - app.routers.prediction - INFO - Video frames shape before prediction: (16, 128, 128, 3)
+2025-07-01 16:53:52,010 - app.routers.prediction - INFO - Prediction completed: 'balloon' with confidence 0.910
+2025-07-01 16:54:44,069 - app.routers.prediction - INFO - Processing video file: 00416(1).mp4
+2025-07-01 16:54:44,406 - app.services.video_service - INFO - [VideoService] Total frames extracted: 116
+2025-07-01 16:54:44,406 - app.services.video_service - INFO - [VideoService] Sampled frames count: 16
+2025-07-01 16:54:44,416 - app.services.video_service - INFO - [VideoService] Extracted frames shape: (16, 128, 128, 3)
+2025-07-01 16:54:44,417 - app.routers.prediction - INFO - Video processing completed in 0.35 seconds
+2025-07-01 16:54:44,417 - app.routers.prediction - INFO - Video frames shape before prediction: (16, 128, 128, 3)
+2025-07-01 16:54:44,743 - app.routers.prediction - INFO - Prediction completed: 'able' with confidence 0.938
+2025-07-01 16:55:30,659 - app.routers.prediction - INFO - Processing video file: 00421(1).mp4
+2025-07-01 16:55:30,735 - app.services.video_service - INFO - [VideoService] Total frames extracted: 33
+2025-07-01 16:55:30,737 - app.services.video_service - INFO - [VideoService] Sampled frames count: 16
+2025-07-01 16:55:30,750 - app.services.video_service - INFO - [VideoService] Extracted frames shape: (16, 128, 128, 3)
+2025-07-01 16:55:30,750 - app.routers.prediction - INFO - Video processing completed in 0.09 seconds
+2025-07-01 16:55:30,751 - app.routers.prediction - INFO - Video frames shape before prediction: (16, 128, 128, 3)
+2025-07-01 16:55:31,083 - app.routers.prediction - INFO - Prediction completed: 'austria' with confidence 0.957
+2025-07-01 16:55:39,479 - app.routers.prediction - INFO - Processing video file: 00421(1).mp4
+2025-07-01 16:55:39,516 - app.services.video_service - INFO - [VideoService] Total frames extracted: 33
+2025-07-01 16:55:39,516 - app.services.video_service - INFO - [VideoService] Sampled frames count: 16
+2025-07-01 16:55:39,521 - app.services.video_service - INFO - [VideoService] Extracted frames shape: (16, 128, 128, 3)
+2025-07-01 16:55:39,522 - app.routers.prediction - INFO - Video processing completed in 0.04 seconds
+2025-07-01 16:55:39,522 - app.routers.prediction - INFO - Video frames shape before prediction: (16, 128, 128, 3)
+2025-07-01 16:55:39,868 - app.routers.prediction - INFO - Prediction completed: 'austria' with confidence 0.957
+2025-07-01 16:55:44,733 - app.routers.prediction - INFO - Processing video file: 00421(1).mp4
+2025-07-01 16:55:44,784 - app.services.video_service - INFO - [VideoService] Total frames extracted: 33
+2025-07-01 16:55:44,784 - app.services.video_service - INFO - [VideoService] Sampled frames count: 16
+2025-07-01 16:55:44,791 - app.services.video_service - INFO - [VideoService] Extracted frames shape: (16, 128, 128, 3)
+2025-07-01 16:55:44,792 - app.routers.prediction - INFO - Video processing completed in 0.06 seconds
+2025-07-01 16:55:44,796 - app.routers.prediction - INFO - Video frames shape before prediction: (16, 128, 128, 3)
+2025-07-01 16:55:45,070 - app.routers.prediction - INFO - Prediction completed: 'austria' with confidence 0.957
+2025-07-01 16:56:48,236 - app.routers.prediction - INFO - Processing video file: 06120(1).mp4
+2025-07-01 16:56:48,436 - app.services.video_service - INFO - [VideoService] Total frames extracted: 115
+2025-07-01 16:56:48,436 - app.services.video_service - INFO - [VideoService] Sampled frames count: 16
+2025-07-01 16:56:48,446 - app.services.video_service - INFO - [VideoService] Extracted frames shape: (16, 128, 128, 3)
+2025-07-01 16:56:48,446 - app.routers.prediction - INFO - Video processing completed in 0.21 seconds
+2025-07-01 16:56:48,447 - app.routers.prediction - INFO - Video frames shape before prediction: (16, 128, 128, 3)
+2025-07-01 16:56:48,834 - app.routers.prediction - INFO - Prediction completed: 'africa' with confidence 0.591
+2025-07-01 16:57:03,871 - app.routers.prediction - INFO - Processing video file: 06121.mp4
+2025-07-01 16:57:03,953 - app.services.video_service - INFO - [VideoService] Total frames extracted: 43
+2025-07-01 16:57:03,954 - app.services.video_service - INFO - [VideoService] Sampled frames count: 16
+2025-07-01 16:57:04,059 - app.services.video_service - INFO - [VideoService] Extracted frames shape: (16, 128, 128, 3)
+2025-07-01 16:57:04,060 - app.routers.prediction - INFO - Video processing completed in 0.19 seconds
+2025-07-01 16:57:04,060 - app.routers.prediction - INFO - Video frames shape before prediction: (16, 128, 128, 3)
+2025-07-01 16:57:04,490 - app.routers.prediction - INFO - Prediction completed: 'abdomen' with confidence 0.970
+2025-07-01 16:57:24,563 - app.routers.prediction - INFO - Processing video file: 06122.mp4
+2025-07-01 16:57:24,596 - app.services.video_service - INFO - [VideoService] Total frames extracted: 30
+2025-07-01 16:57:24,596 - app.services.video_service - INFO - [VideoService] Sampled frames count: 16
+2025-07-01 16:57:24,604 - app.services.video_service - INFO - [VideoService] Extracted frames shape: (16, 128, 128, 3)
+2025-07-01 16:57:24,606 - app.routers.prediction - INFO - Video processing completed in 0.04 seconds
+2025-07-01 16:57:24,606 - app.routers.prediction - INFO - Video frames shape before prediction: (16, 128, 128, 3)
+2025-07-01 16:57:24,948 - app.routers.prediction - INFO - Prediction completed: 'adjective' with confidence 0.884
+2025-07-01 17:36:12,096 - app.main - INFO - Starting SignSafe API...
+2025-07-01 17:36:12,096 - app.main - INFO - Model path: data/models/sign_language_model.h5
+2025-07-01 17:36:12,097 - app.main - INFO - Labels path: data/labels/class_index.json
+2025-07-01 17:36:12,097 - app.main - INFO - Loading ML model...
+2025-07-01 17:36:12,097 - app.services.ml_service - INFO - Loading model from: data/models/sign_language_model.h5
+2025-07-01 17:36:13,119 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-01 17:36:13,164 - app.services.ml_service - INFO - Model loaded successfully
+2025-07-01 17:36:13,185 - app.services.ml_service - INFO - Loaded 1482 class labels
+2025-07-01 17:36:13,186 - app.services.ml_service - INFO - Model input shape: (None, 128, 128, 3)
+2025-07-01 17:36:13,186 - app.services.ml_service - INFO - ML Service initialized with 1482 classes
+2025-07-01 17:36:13,186 - app.main - INFO - Model loaded successfully
+2025-07-01 17:36:13,186 - app.main - INFO - SignSafe API startup complete
+2025-07-01 18:20:39,254 - app.main - INFO - Shutting down SignSafe API...
+2025-07-01 18:21:19,003 - app.main - INFO - Starting SignSafe API...
+2025-07-01 18:21:19,004 - app.main - INFO - Model path: data/models/sign_language_model.h5
+2025-07-01 18:21:19,004 - app.main - INFO - Labels path: data/labels/class_index.json
+2025-07-01 18:21:19,005 - app.main - INFO - Loading ML model...
+2025-07-01 18:21:19,005 - app.services.ml_service - INFO - Loading model from: data/models/sign_language_model.h5
+2025-07-01 18:21:20,129 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-01 18:21:20,157 - app.services.ml_service - INFO - Model loaded successfully
+2025-07-01 18:21:20,177 - app.services.ml_service - INFO - Loaded 1482 class labels
+2025-07-01 18:21:20,178 - app.services.ml_service - INFO - Model input shape: (None, 128, 128, 3)
+2025-07-01 18:21:20,180 - app.services.ml_service - INFO - ML Service initialized with 1482 classes
+2025-07-01 18:21:20,181 - app.main - INFO - Model loaded successfully
+2025-07-01 18:21:20,181 - app.main - INFO - SignSafe API startup complete
+2025-07-01 18:22:12,920 - app.routers.prediction - ERROR - Error in WebSocket real-time prediction: Invalid base64-encoded string: number of data characters (13) cannot be 1 more than a multiple of 4
+2025-07-01 18:26:58,583 - app.services.ml_service - ERROR - Error during single frame prediction: Exception encountered when calling Sequential.call().
+
+[1mInvalid input shape for input Tensor("data:0", shape=(1, 1, 128, 128, 3), dtype=float32). Expected shape (None, 128, 128, 3), but input has incompatible shape (1, 1, 128, 128, 3)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 1, 128, 128, 3), dtype=float32)
+  • training=False
+  • mask=None
+  • kwargs=<class 'inspect._empty'>
+2025-07-01 18:26:58,584 - app.routers.prediction - ERROR - Error in WebSocket real-time prediction: Single frame prediction failed: Exception encountered when calling Sequential.call().
+
+[1mInvalid input shape for input Tensor("data:0", shape=(1, 1, 128, 128, 3), dtype=float32). Expected shape (None, 128, 128, 3), but input has incompatible shape (1, 1, 128, 128, 3)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 1, 128, 128, 3), dtype=float32)
+  • training=False
+  • mask=None
+  • kwargs=<class 'inspect._empty'>
+2025-07-01 18:27:12,053 - app.services.ml_service - ERROR - Error during single frame prediction: Exception encountered when calling Sequential.call().
+
+[1mInvalid input shape for input Tensor("data:0", shape=(1, 1, 128, 128, 3), dtype=float32). Expected shape (None, 128, 128, 3), but input has incompatible shape (1, 1, 128, 128, 3)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 1, 128, 128, 3), dtype=float32)
+  • training=False
+  • mask=None
+  • kwargs=<class 'inspect._empty'>
+2025-07-01 18:27:12,053 - app.routers.prediction - ERROR - Error in WebSocket real-time prediction: Single frame prediction failed: Exception encountered when calling Sequential.call().
+
+[1mInvalid input shape for input Tensor("data:0", shape=(1, 1, 128, 128, 3), dtype=float32). Expected shape (None, 128, 128, 3), but input has incompatible shape (1, 1, 128, 128, 3)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 1, 128, 128, 3), dtype=float32)
+  • training=False
+  • mask=None
+  • kwargs=<class 'inspect._empty'>
+2025-07-01 18:27:17,034 - app.services.ml_service - ERROR - Error during single frame prediction: Exception encountered when calling Sequential.call().
+
+[1mInvalid input shape for input Tensor("data:0", shape=(1, 1, 128, 128, 3), dtype=float32). Expected shape (None, 128, 128, 3), but input has incompatible shape (1, 1, 128, 128, 3)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 1, 128, 128, 3), dtype=float32)
+  • training=False
+  • mask=None
+  • kwargs=<class 'inspect._empty'>
+2025-07-01 18:27:17,052 - app.routers.prediction - ERROR - Error in WebSocket real-time prediction: Single frame prediction failed: Exception encountered when calling Sequential.call().
+
+[1mInvalid input shape for input Tensor("data:0", shape=(1, 1, 128, 128, 3), dtype=float32). Expected shape (None, 128, 128, 3), but input has incompatible shape (1, 1, 128, 128, 3)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 1, 128, 128, 3), dtype=float32)
+  • training=False
+  • mask=None
+  • kwargs=<class 'inspect._empty'>
+2025-07-01 18:27:21,097 - app.services.ml_service - ERROR - Error during single frame prediction: Exception encountered when calling Sequential.call().
+
+[1mInvalid input shape for input Tensor("data:0", shape=(1, 1, 128, 128, 3), dtype=float32). Expected shape (None, 128, 128, 3), but input has incompatible shape (1, 1, 128, 128, 3)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 1, 128, 128, 3), dtype=float32)
+  • training=False
+  • mask=None
+  • kwargs=<class 'inspect._empty'>
+2025-07-01 18:27:21,097 - app.routers.prediction - ERROR - Error in WebSocket real-time prediction: Single frame prediction failed: Exception encountered when calling Sequential.call().
+
+[1mInvalid input shape for input Tensor("data:0", shape=(1, 1, 128, 128, 3), dtype=float32). Expected shape (None, 128, 128, 3), but input has incompatible shape (1, 1, 128, 128, 3)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 1, 128, 128, 3), dtype=float32)
+  • training=False
+  • mask=None
+  • kwargs=<class 'inspect._empty'>
+2025-07-01 18:27:24,047 - app.services.ml_service - ERROR - Error during single frame prediction: Exception encountered when calling Sequential.call().
+
+[1mInvalid input shape for input Tensor("data:0", shape=(1, 1, 128, 128, 3), dtype=float32). Expected shape (None, 128, 128, 3), but input has incompatible shape (1, 1, 128, 128, 3)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 1, 128, 128, 3), dtype=float32)
+  • training=False
+  • mask=None
+  • kwargs=<class 'inspect._empty'>
+2025-07-01 18:27:24,048 - app.routers.prediction - ERROR - Error in WebSocket real-time prediction: Single frame prediction failed: Exception encountered when calling Sequential.call().
+
+[1mInvalid input shape for input Tensor("data:0", shape=(1, 1, 128, 128, 3), dtype=float32). Expected shape (None, 128, 128, 3), but input has incompatible shape (1, 1, 128, 128, 3)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 1, 128, 128, 3), dtype=float32)
+  • training=False
+  • mask=None
+  • kwargs=<class 'inspect._empty'>
+2025-07-01 18:27:27,450 - app.services.ml_service - ERROR - Error during single frame prediction: Exception encountered when calling Sequential.call().
+
+[1mInvalid input shape for input Tensor("data:0", shape=(1, 1, 128, 128, 3), dtype=float32). Expected shape (None, 128, 128, 3), but input has incompatible shape (1, 1, 128, 128, 3)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 1, 128, 128, 3), dtype=float32)
+  • training=False
+  • mask=None
+  • kwargs=<class 'inspect._empty'>
+2025-07-01 18:27:27,450 - app.routers.prediction - ERROR - Error in WebSocket real-time prediction: Single frame prediction failed: Exception encountered when calling Sequential.call().
+
+[1mInvalid input shape for input Tensor("data:0", shape=(1, 1, 128, 128, 3), dtype=float32). Expected shape (None, 128, 128, 3), but input has incompatible shape (1, 1, 128, 128, 3)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 1, 128, 128, 3), dtype=float32)
+  • training=False
+  • mask=None
+  • kwargs=<class 'inspect._empty'>
+2025-07-01 18:27:41,243 - app.services.ml_service - ERROR - Error during single frame prediction: Exception encountered when calling Sequential.call().
+
+[1mInvalid input shape for input Tensor("data:0", shape=(1, 1, 128, 128, 3), dtype=float32). Expected shape (None, 128, 128, 3), but input has incompatible shape (1, 1, 128, 128, 3)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 1, 128, 128, 3), dtype=float32)
+  • training=False
+  • mask=None
+  • kwargs=<class 'inspect._empty'>
+2025-07-01 18:27:41,243 - app.routers.prediction - ERROR - Error in WebSocket real-time prediction: Single frame prediction failed: Exception encountered when calling Sequential.call().
+
+[1mInvalid input shape for input Tensor("data:0", shape=(1, 1, 128, 128, 3), dtype=float32). Expected shape (None, 128, 128, 3), but input has incompatible shape (1, 1, 128, 128, 3)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 1, 128, 128, 3), dtype=float32)
+  • training=False
+  • mask=None
+  • kwargs=<class 'inspect._empty'>
+2025-07-01 18:27:45,032 - app.services.ml_service - ERROR - Error during single frame prediction: Exception encountered when calling Sequential.call().
+
+[1mInvalid input shape for input Tensor("data:0", shape=(1, 1, 128, 128, 3), dtype=float32). Expected shape (None, 128, 128, 3), but input has incompatible shape (1, 1, 128, 128, 3)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 1, 128, 128, 3), dtype=float32)
+  • training=False
+  • mask=None
+  • kwargs=<class 'inspect._empty'>
+2025-07-01 18:27:45,032 - app.routers.prediction - ERROR - Error in WebSocket real-time prediction: Single frame prediction failed: Exception encountered when calling Sequential.call().
+
+[1mInvalid input shape for input Tensor("data:0", shape=(1, 1, 128, 128, 3), dtype=float32). Expected shape (None, 128, 128, 3), but input has incompatible shape (1, 1, 128, 128, 3)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 1, 128, 128, 3), dtype=float32)
+  • training=False
+  • mask=None
+  • kwargs=<class 'inspect._empty'>
+2025-07-01 18:28:37,419 - app.routers.prediction - INFO - WebSocket disconnected
+2025-07-01 18:28:59,996 - app.services.ml_service - ERROR - Error during single frame prediction: Exception encountered when calling Sequential.call().
+
+[1mInvalid input shape for input Tensor("data:0", shape=(1, 1, 128, 128, 3), dtype=float32). Expected shape (None, 128, 128, 3), but input has incompatible shape (1, 1, 128, 128, 3)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 1, 128, 128, 3), dtype=float32)
+  • training=False
+  • mask=None
+  • kwargs=<class 'inspect._empty'>
+2025-07-01 18:28:59,996 - app.routers.prediction - ERROR - Error in WebSocket real-time prediction: Single frame prediction failed: Exception encountered when calling Sequential.call().
+
+[1mInvalid input shape for input Tensor("data:0", shape=(1, 1, 128, 128, 3), dtype=float32). Expected shape (None, 128, 128, 3), but input has incompatible shape (1, 1, 128, 128, 3)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 1, 128, 128, 3), dtype=float32)
+  • training=False
+  • mask=None
+  • kwargs=<class 'inspect._empty'>
+2025-07-01 18:40:07,494 - app.services.ml_service - ERROR - Error during single frame prediction: Exception encountered when calling Sequential.call().
+
+[1mInvalid input shape for input Tensor("data:0", shape=(1, 1, 128, 128, 3), dtype=float32). Expected shape (None, 128, 128, 3), but input has incompatible shape (1, 1, 128, 128, 3)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 1, 128, 128, 3), dtype=float32)
+  • training=False
+  • mask=None
+  • kwargs=<class 'inspect._empty'>
+2025-07-01 18:40:07,527 - app.routers.prediction - ERROR - Error in WebSocket real-time prediction: Single frame prediction failed: Exception encountered when calling Sequential.call().
+
+[1mInvalid input shape for input Tensor("data:0", shape=(1, 1, 128, 128, 3), dtype=float32). Expected shape (None, 128, 128, 3), but input has incompatible shape (1, 1, 128, 128, 3)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 1, 128, 128, 3), dtype=float32)
+  • training=False
+  • mask=None
+  • kwargs=<class 'inspect._empty'>
+2025-07-01 18:40:13,022 - app.services.ml_service - ERROR - Error during single frame prediction: Exception encountered when calling Sequential.call().
+
+[1mInvalid input shape for input Tensor("data:0", shape=(1, 1, 128, 128, 3), dtype=float32). Expected shape (None, 128, 128, 3), but input has incompatible shape (1, 1, 128, 128, 3)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 1, 128, 128, 3), dtype=float32)
+  • training=False
+  • mask=None
+  • kwargs=<class 'inspect._empty'>
+2025-07-01 18:40:13,022 - app.routers.prediction - ERROR - Error in WebSocket real-time prediction: Single frame prediction failed: Exception encountered when calling Sequential.call().
+
+[1mInvalid input shape for input Tensor("data:0", shape=(1, 1, 128, 128, 3), dtype=float32). Expected shape (None, 128, 128, 3), but input has incompatible shape (1, 1, 128, 128, 3)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 1, 128, 128, 3), dtype=float32)
+  • training=False
+  • mask=None
+  • kwargs=<class 'inspect._empty'>
+2025-07-01 18:40:15,611 - app.services.ml_service - ERROR - Error during single frame prediction: Exception encountered when calling Sequential.call().
+
+[1mInvalid input shape for input Tensor("data:0", shape=(1, 1, 128, 128, 3), dtype=float32). Expected shape (None, 128, 128, 3), but input has incompatible shape (1, 1, 128, 128, 3)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 1, 128, 128, 3), dtype=float32)
+  • training=False
+  • mask=None
+  • kwargs=<class 'inspect._empty'>
+2025-07-01 18:40:15,611 - app.routers.prediction - ERROR - Error in WebSocket real-time prediction: Single frame prediction failed: Exception encountered when calling Sequential.call().
+
+[1mInvalid input shape for input Tensor("data:0", shape=(1, 1, 128, 128, 3), dtype=float32). Expected shape (None, 128, 128, 3), but input has incompatible shape (1, 1, 128, 128, 3)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 1, 128, 128, 3), dtype=float32)
+  • training=False
+  • mask=None
+  • kwargs=<class 'inspect._empty'>
+2025-07-01 19:15:35,428 - app.main - INFO - Starting SignSafe API...
+2025-07-01 19:15:35,428 - app.main - INFO - Model path: data/models/sign_language_model.h5
+2025-07-01 19:15:35,429 - app.main - INFO - Labels path: data/labels/class_index.json
+2025-07-01 19:15:35,429 - app.main - INFO - Loading ML model...
+2025-07-01 19:15:35,429 - app.services.ml_service - INFO - Loading model from: data/models/sign_language_model.h5
+2025-07-01 19:15:36,872 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-01 19:15:36,912 - app.services.ml_service - INFO - Model loaded successfully
+2025-07-01 19:15:36,940 - app.services.ml_service - INFO - Loaded 1482 class labels
+2025-07-01 19:15:36,943 - app.services.ml_service - INFO - Model input shape: (None, 128, 128, 3)
+2025-07-01 19:15:36,945 - app.services.ml_service - INFO - ML Service initialized with 1482 classes
+2025-07-01 19:15:36,946 - app.main - INFO - Model loaded successfully
+2025-07-01 19:15:36,946 - app.main - INFO - SignSafe API startup complete
+2025-07-01 19:17:58,814 - app.services.ml_service - ERROR - Error during single frame prediction: Exception encountered when calling Sequential.call().
+
+[1mInvalid input shape for input Tensor("data:0", shape=(1, 1, 128, 128, 3), dtype=float32). Expected shape (None, 128, 128, 3), but input has incompatible shape (1, 1, 128, 128, 3)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 1, 128, 128, 3), dtype=float32)
+  • training=False
+  • mask=None
+  • kwargs=<class 'inspect._empty'>
+2025-07-01 19:17:58,818 - app.routers.prediction - ERROR - Error in WebSocket real-time prediction: Single frame prediction failed: Exception encountered when calling Sequential.call().
+
+[1mInvalid input shape for input Tensor("data:0", shape=(1, 1, 128, 128, 3), dtype=float32). Expected shape (None, 128, 128, 3), but input has incompatible shape (1, 1, 128, 128, 3)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 1, 128, 128, 3), dtype=float32)
+  • training=False
+  • mask=None
+  • kwargs=<class 'inspect._empty'>
+2025-07-01 19:18:02,428 - app.services.ml_service - ERROR - Error during single frame prediction: Exception encountered when calling Sequential.call().
+
+[1mInvalid input shape for input Tensor("data:0", shape=(1, 1, 128, 128, 3), dtype=float32). Expected shape (None, 128, 128, 3), but input has incompatible shape (1, 1, 128, 128, 3)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 1, 128, 128, 3), dtype=float32)
+  • training=False
+  • mask=None
+  • kwargs=<class 'inspect._empty'>
+2025-07-01 19:18:02,429 - app.routers.prediction - ERROR - Error in WebSocket real-time prediction: Single frame prediction failed: Exception encountered when calling Sequential.call().
+
+[1mInvalid input shape for input Tensor("data:0", shape=(1, 1, 128, 128, 3), dtype=float32). Expected shape (None, 128, 128, 3), but input has incompatible shape (1, 1, 128, 128, 3)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 1, 128, 128, 3), dtype=float32)
+  • training=False
+  • mask=None
+  • kwargs=<class 'inspect._empty'>
+2025-07-01 19:19:23,477 - app.routers.prediction - INFO - WebSocket disconnected
+2025-07-01 19:19:37,977 - app.services.ml_service - ERROR - Error during single frame prediction: Exception encountered when calling Sequential.call().
+
+[1mInvalid input shape for input Tensor("data:0", shape=(1, 1, 128, 128, 3), dtype=float32). Expected shape (None, 128, 128, 3), but input has incompatible shape (1, 1, 128, 128, 3)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 1, 128, 128, 3), dtype=float32)
+  • training=False
+  • mask=None
+  • kwargs=<class 'inspect._empty'>
+2025-07-01 19:19:37,978 - app.routers.prediction - ERROR - Error in WebSocket real-time prediction: Single frame prediction failed: Exception encountered when calling Sequential.call().
+
+[1mInvalid input shape for input Tensor("data:0", shape=(1, 1, 128, 128, 3), dtype=float32). Expected shape (None, 128, 128, 3), but input has incompatible shape (1, 1, 128, 128, 3)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 1, 128, 128, 3), dtype=float32)
+  • training=False
+  • mask=None
+  • kwargs=<class 'inspect._empty'>
+2025-07-01 19:21:28,535 - app.routers.prediction - INFO - WebSocket disconnected
+2025-07-01 19:21:59,647 - app.services.ml_service - ERROR - Error during single frame prediction: Exception encountered when calling Sequential.call().
+
+[1mInvalid input shape for input Tensor("data:0", shape=(1, 1, 128, 128, 3), dtype=float32). Expected shape (None, 128, 128, 3), but input has incompatible shape (1, 1, 128, 128, 3)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 1, 128, 128, 3), dtype=float32)
+  • training=False
+  • mask=None
+  • kwargs=<class 'inspect._empty'>
+2025-07-01 19:21:59,648 - app.routers.prediction - ERROR - Error in WebSocket real-time prediction: Single frame prediction failed: Exception encountered when calling Sequential.call().
+
+[1mInvalid input shape for input Tensor("data:0", shape=(1, 1, 128, 128, 3), dtype=float32). Expected shape (None, 128, 128, 3), but input has incompatible shape (1, 1, 128, 128, 3)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 1, 128, 128, 3), dtype=float32)
+  • training=False
+  • mask=None
+  • kwargs=<class 'inspect._empty'>
+2025-07-01 19:22:05,061 - app.services.ml_service - ERROR - Error during single frame prediction: Exception encountered when calling Sequential.call().
+
+[1mInvalid input shape for input Tensor("data:0", shape=(1, 1, 128, 128, 3), dtype=float32). Expected shape (None, 128, 128, 3), but input has incompatible shape (1, 1, 128, 128, 3)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 1, 128, 128, 3), dtype=float32)
+  • training=False
+  • mask=None
+  • kwargs=<class 'inspect._empty'>
+2025-07-01 19:22:05,061 - app.routers.prediction - ERROR - Error in WebSocket real-time prediction: Single frame prediction failed: Exception encountered when calling Sequential.call().
+
+[1mInvalid input shape for input Tensor("data:0", shape=(1, 1, 128, 128, 3), dtype=float32). Expected shape (None, 128, 128, 3), but input has incompatible shape (1, 1, 128, 128, 3)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 1, 128, 128, 3), dtype=float32)
+  • training=False
+  • mask=None
+  • kwargs=<class 'inspect._empty'>
+2025-07-01 19:22:09,987 - app.services.ml_service - ERROR - Error during single frame prediction: Exception encountered when calling Sequential.call().
+
+[1mInvalid input shape for input Tensor("data:0", shape=(1, 1, 128, 128, 3), dtype=float32). Expected shape (None, 128, 128, 3), but input has incompatible shape (1, 1, 128, 128, 3)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 1, 128, 128, 3), dtype=float32)
+  • training=False
+  • mask=None
+  • kwargs=<class 'inspect._empty'>
+2025-07-01 19:22:09,989 - app.routers.prediction - ERROR - Error in WebSocket real-time prediction: Single frame prediction failed: Exception encountered when calling Sequential.call().
+
+[1mInvalid input shape for input Tensor("data:0", shape=(1, 1, 128, 128, 3), dtype=float32). Expected shape (None, 128, 128, 3), but input has incompatible shape (1, 1, 128, 128, 3)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 1, 128, 128, 3), dtype=float32)
+  • training=False
+  • mask=None
+  • kwargs=<class 'inspect._empty'>
+2025-07-01 19:22:11,294 - app.services.ml_service - ERROR - Error during single frame prediction: Exception encountered when calling Sequential.call().
+
+[1mInvalid input shape for input Tensor("data:0", shape=(1, 1, 128, 128, 3), dtype=float32). Expected shape (None, 128, 128, 3), but input has incompatible shape (1, 1, 128, 128, 3)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 1, 128, 128, 3), dtype=float32)
+  • training=False
+  • mask=None
+  • kwargs=<class 'inspect._empty'>
+2025-07-01 19:22:11,296 - app.routers.prediction - ERROR - Error in WebSocket real-time prediction: Single frame prediction failed: Exception encountered when calling Sequential.call().
+
+[1mInvalid input shape for input Tensor("data:0", shape=(1, 1, 128, 128, 3), dtype=float32). Expected shape (None, 128, 128, 3), but input has incompatible shape (1, 1, 128, 128, 3)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 1, 128, 128, 3), dtype=float32)
+  • training=False
+  • mask=None
+  • kwargs=<class 'inspect._empty'>
+2025-07-01 19:22:14,712 - app.services.ml_service - ERROR - Error during single frame prediction: Exception encountered when calling Sequential.call().
+
+[1mInvalid input shape for input Tensor("data:0", shape=(1, 1, 128, 128, 3), dtype=float32). Expected shape (None, 128, 128, 3), but input has incompatible shape (1, 1, 128, 128, 3)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 1, 128, 128, 3), dtype=float32)
+  • training=False
+  • mask=None
+  • kwargs=<class 'inspect._empty'>
+2025-07-01 19:22:14,713 - app.routers.prediction - ERROR - Error in WebSocket real-time prediction: Single frame prediction failed: Exception encountered when calling Sequential.call().
+
+[1mInvalid input shape for input Tensor("data:0", shape=(1, 1, 128, 128, 3), dtype=float32). Expected shape (None, 128, 128, 3), but input has incompatible shape (1, 1, 128, 128, 3)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 1, 128, 128, 3), dtype=float32)
+  • training=False
+  • mask=None
+  • kwargs=<class 'inspect._empty'>
+2025-07-01 19:22:17,686 - app.services.ml_service - ERROR - Error during single frame prediction: Exception encountered when calling Sequential.call().
+
+[1mInvalid input shape for input Tensor("data:0", shape=(1, 1, 128, 128, 3), dtype=float32). Expected shape (None, 128, 128, 3), but input has incompatible shape (1, 1, 128, 128, 3)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 1, 128, 128, 3), dtype=float32)
+  • training=False
+  • mask=None
+  • kwargs=<class 'inspect._empty'>
+2025-07-01 19:22:17,686 - app.routers.prediction - ERROR - Error in WebSocket real-time prediction: Single frame prediction failed: Exception encountered when calling Sequential.call().
+
+[1mInvalid input shape for input Tensor("data:0", shape=(1, 1, 128, 128, 3), dtype=float32). Expected shape (None, 128, 128, 3), but input has incompatible shape (1, 1, 128, 128, 3)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 1, 128, 128, 3), dtype=float32)
+  • training=False
+  • mask=None
+  • kwargs=<class 'inspect._empty'>
+2025-07-01 19:22:21,887 - app.services.ml_service - ERROR - Error during single frame prediction: Exception encountered when calling Sequential.call().
+
+[1mInvalid input shape for input Tensor("data:0", shape=(1, 1, 128, 128, 3), dtype=float32). Expected shape (None, 128, 128, 3), but input has incompatible shape (1, 1, 128, 128, 3)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 1, 128, 128, 3), dtype=float32)
+  • training=False
+  • mask=None
+  • kwargs=<class 'inspect._empty'>
+2025-07-01 19:22:21,889 - app.routers.prediction - ERROR - Error in WebSocket real-time prediction: Single frame prediction failed: Exception encountered when calling Sequential.call().
+
+[1mInvalid input shape for input Tensor("data:0", shape=(1, 1, 128, 128, 3), dtype=float32). Expected shape (None, 128, 128, 3), but input has incompatible shape (1, 1, 128, 128, 3)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 1, 128, 128, 3), dtype=float32)
+  • training=False
+  • mask=None
+  • kwargs=<class 'inspect._empty'>
+2025-07-01 19:22:25,676 - app.services.ml_service - ERROR - Error during single frame prediction: Exception encountered when calling Sequential.call().
+
+[1mInvalid input shape for input Tensor("data:0", shape=(1, 1, 128, 128, 3), dtype=float32). Expected shape (None, 128, 128, 3), but input has incompatible shape (1, 1, 128, 128, 3)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 1, 128, 128, 3), dtype=float32)
+  • training=False
+  • mask=None
+  • kwargs=<class 'inspect._empty'>
+2025-07-01 19:22:25,676 - app.routers.prediction - ERROR - Error in WebSocket real-time prediction: Single frame prediction failed: Exception encountered when calling Sequential.call().
+
+[1mInvalid input shape for input Tensor("data:0", shape=(1, 1, 128, 128, 3), dtype=float32). Expected shape (None, 128, 128, 3), but input has incompatible shape (1, 1, 128, 128, 3)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 1, 128, 128, 3), dtype=float32)
+  • training=False
+  • mask=None
+  • kwargs=<class 'inspect._empty'>
+2025-07-01 19:22:31,258 - app.services.ml_service - ERROR - Error during single frame prediction: Exception encountered when calling Sequential.call().
+
+[1mInvalid input shape for input Tensor("data:0", shape=(1, 1, 128, 128, 3), dtype=float32). Expected shape (None, 128, 128, 3), but input has incompatible shape (1, 1, 128, 128, 3)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 1, 128, 128, 3), dtype=float32)
+  • training=False
+  • mask=None
+  • kwargs=<class 'inspect._empty'>
+2025-07-01 19:22:31,260 - app.routers.prediction - ERROR - Error in WebSocket real-time prediction: Single frame prediction failed: Exception encountered when calling Sequential.call().
+
+[1mInvalid input shape for input Tensor("data:0", shape=(1, 1, 128, 128, 3), dtype=float32). Expected shape (None, 128, 128, 3), but input has incompatible shape (1, 1, 128, 128, 3)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 1, 128, 128, 3), dtype=float32)
+  • training=False
+  • mask=None
+  • kwargs=<class 'inspect._empty'>
+2025-07-01 19:22:34,907 - app.services.ml_service - ERROR - Error during single frame prediction: Exception encountered when calling Sequential.call().
+
+[1mInvalid input shape for input Tensor("data:0", shape=(1, 1, 128, 128, 3), dtype=float32). Expected shape (None, 128, 128, 3), but input has incompatible shape (1, 1, 128, 128, 3)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 1, 128, 128, 3), dtype=float32)
+  • training=False
+  • mask=None
+  • kwargs=<class 'inspect._empty'>
+2025-07-01 19:22:34,907 - app.routers.prediction - ERROR - Error in WebSocket real-time prediction: Single frame prediction failed: Exception encountered when calling Sequential.call().
+
+[1mInvalid input shape for input Tensor("data:0", shape=(1, 1, 128, 128, 3), dtype=float32). Expected shape (None, 128, 128, 3), but input has incompatible shape (1, 1, 128, 128, 3)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 1, 128, 128, 3), dtype=float32)
+  • training=False
+  • mask=None
+  • kwargs=<class 'inspect._empty'>
+2025-07-01 19:24:28,799 - app.main - INFO - Shutting down SignSafe API...
+2025-07-01 19:24:54,463 - app.main - INFO - Starting SignSafe API...
+2025-07-01 19:24:54,463 - app.main - INFO - Model path: data/models/sign_language_model.h5
+2025-07-01 19:24:54,463 - app.main - INFO - Labels path: data/labels/class_index.json
+2025-07-01 19:24:54,464 - app.main - INFO - Loading ML model...
+2025-07-01 19:24:54,464 - app.services.ml_service - INFO - Loading model from: data/models/sign_language_model.h5
+2025-07-01 19:24:55,006 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-01 19:24:55,024 - app.services.ml_service - INFO - Model loaded successfully
+2025-07-01 19:24:55,044 - app.services.ml_service - INFO - Loaded 1482 class labels
+2025-07-01 19:24:55,044 - app.services.ml_service - INFO - Model input shape: (None, 128, 128, 3)
+2025-07-01 19:24:55,045 - app.services.ml_service - INFO - ML Service initialized with 1482 classes
+2025-07-01 19:24:55,045 - app.main - INFO - Model loaded successfully
+2025-07-01 19:24:55,045 - app.main - INFO - SignSafe API startup complete
+2025-07-01 19:25:07,103 - app.main - INFO - Shutting down SignSafe API...
+2025-07-01 19:25:11,927 - app.main - INFO - Starting SignSafe API...
+2025-07-01 19:25:11,927 - app.main - INFO - Model path: data/models/sign_language_model.h5
+2025-07-01 19:25:11,927 - app.main - INFO - Labels path: data/labels/class_index.json
+2025-07-01 19:25:11,927 - app.main - INFO - Loading ML model...
+2025-07-01 19:25:11,928 - app.services.ml_service - INFO - Loading model from: data/models/sign_language_model.h5
+2025-07-01 19:25:12,170 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-01 19:25:12,180 - app.services.ml_service - INFO - Model loaded successfully
+2025-07-01 19:25:12,182 - app.services.ml_service - INFO - Loaded 1482 class labels
+2025-07-01 19:25:12,182 - app.services.ml_service - INFO - Model input shape: (None, 128, 128, 3)
+2025-07-01 19:25:12,183 - app.services.ml_service - INFO - ML Service initialized with 1482 classes
+2025-07-01 19:25:12,183 - app.main - INFO - Model loaded successfully
+2025-07-01 19:25:12,184 - app.main - INFO - SignSafe API startup complete
+2025-07-01 19:32:04,746 - app.routers.prediction - INFO - WebSocket disconnected
+2025-07-01 19:32:19,398 - app.routers.prediction - INFO - WebSocket disconnected
+2025-07-01 19:32:30,183 - app.routers.prediction - INFO - WebSocket disconnected
+2025-07-01 19:40:00,100 - app.routers.prediction - INFO - WebSocket disconnected
+2025-07-01 19:40:35,377 - app.routers.prediction - INFO - WebSocket disconnected
+2025-07-01 19:40:45,825 - app.main - INFO - Shutting down SignSafe API...
+2025-07-01 19:41:14,361 - app.main - INFO - Starting SignSafe API...
+2025-07-01 19:41:14,361 - app.main - INFO - Model path: data/models/sign_language_model.h5
+2025-07-01 19:41:14,361 - app.main - INFO - Labels path: data/labels/class_index.json
+2025-07-01 19:41:14,361 - app.main - INFO - Loading ML model...
+2025-07-01 19:41:14,362 - app.services.ml_service - INFO - Loading model from: data/models/sign_language_model.h5
+2025-07-01 19:41:14,722 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-01 19:41:14,733 - app.services.ml_service - INFO - Model loaded successfully
+2025-07-01 19:41:14,734 - app.services.ml_service - INFO - Loaded 94 class labels
+2025-07-01 19:41:14,734 - app.services.ml_service - INFO - Model input shape: (None, 128, 128, 3)
+2025-07-01 19:41:14,734 - app.services.ml_service - INFO - ML Service initialized with 94 classes
+2025-07-01 19:41:14,735 - app.main - INFO - Model loaded successfully
+2025-07-01 19:41:14,735 - app.main - INFO - SignSafe API startup complete
+2025-07-01 19:44:05,090 - app.main - INFO - Shutting down SignSafe API...
+2025-07-01 19:44:09,617 - app.main - INFO - Starting SignSafe API...
+2025-07-01 19:44:09,617 - app.main - INFO - Model path: data/models/sign_language_model.h5
+2025-07-01 19:44:09,617 - app.main - INFO - Labels path: data/labels/class_index.json
+2025-07-01 19:44:09,617 - app.main - INFO - Loading ML model...
+2025-07-01 19:44:09,617 - app.services.ml_service - INFO - Loading model from: data/models/sign_language_model.h5
+2025-07-01 19:44:09,988 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-01 19:44:10,000 - app.services.ml_service - INFO - Model loaded successfully
+2025-07-01 19:44:10,001 - app.services.ml_service - INFO - Loaded 94 class labels
+2025-07-01 19:44:10,001 - app.services.ml_service - INFO - Model input shape: (None, 128, 128, 3)
+2025-07-01 19:44:10,001 - app.services.ml_service - INFO - ML Service initialized with 94 classes
+2025-07-01 19:44:10,002 - app.main - INFO - Model loaded successfully
+2025-07-01 19:44:10,002 - app.main - INFO - SignSafe API startup complete
+2025-07-01 19:45:57,364 - app.main - INFO - Shutting down SignSafe API...
+2025-07-01 19:46:02,011 - app.main - INFO - Starting SignSafe API...
+2025-07-01 19:46:02,011 - app.main - INFO - Model path: data/models/sign_language_model.h5
+2025-07-01 19:46:02,011 - app.main - INFO - Labels path: data/labels/class_index.json
+2025-07-01 19:46:02,011 - app.main - INFO - Loading ML model...
+2025-07-01 19:46:02,011 - app.services.ml_service - INFO - Loading model from: data/models/sign_language_model.h5
+2025-07-01 19:46:02,347 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-01 19:46:02,360 - app.services.ml_service - INFO - Model loaded successfully
+2025-07-01 19:46:02,361 - app.services.ml_service - INFO - Loaded 94 class labels
+2025-07-01 19:46:02,361 - app.services.ml_service - INFO - Model input shape: (None, 128, 128, 3)
+2025-07-01 19:46:02,361 - app.services.ml_service - INFO - ML Service initialized with 94 classes
+2025-07-01 19:46:02,361 - app.main - INFO - Model loaded successfully
+2025-07-01 19:46:02,361 - app.main - INFO - SignSafe API startup complete
+2025-07-01 20:04:33,515 - app.main - INFO - Starting SignSafe API...
+2025-07-01 20:04:33,515 - app.main - INFO - Model path: data/models/sign_language_model.h5
+2025-07-01 20:04:33,516 - app.main - INFO - Labels path: data/labels/class_index.json
+2025-07-01 20:04:33,516 - app.main - INFO - Loading ML model...
+2025-07-01 20:04:33,516 - app.services.ml_service - INFO - Loading model from: data/models/sign_language_model.h5
+2025-07-01 20:04:33,855 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-01 20:04:33,871 - app.services.ml_service - INFO - Model loaded successfully
+2025-07-01 20:04:33,872 - app.services.ml_service - INFO - Loaded 94 class labels
+2025-07-01 20:04:33,872 - app.services.ml_service - INFO - Model input shape: (None, 128, 128, 3)
+2025-07-01 20:04:33,873 - app.services.ml_service - INFO - ML Service initialized with 94 classes
+2025-07-01 20:04:33,873 - app.main - INFO - Model loaded successfully
+2025-07-01 20:04:33,873 - app.main - INFO - SignSafe API startup complete
+2025-07-01 20:08:25,252 - app.routers.prediction - INFO - WebSocket disconnected
+2025-07-01 20:09:00,687 - app.routers.prediction - INFO - WebSocket disconnected
+2025-07-01 20:09:42,294 - app.routers.prediction - INFO - WebSocket disconnected
+2025-07-01 20:22:30,442 - app.main - INFO - Shutting down SignSafe API...
+2025-07-01 20:24:10,742 - app.main - INFO - Starting SignSafe API...
+2025-07-01 20:24:10,768 - app.main - INFO - Model path: data/models/sign_language_model.h5
+2025-07-01 20:24:10,768 - app.main - INFO - Labels path: data/labels/class_index.json
+2025-07-01 20:24:10,769 - app.main - INFO - Loading ML model...
+2025-07-01 20:24:10,769 - app.services.ml_service - INFO - Loading model from: data/models/sign_language_model.h5
+2025-07-01 20:24:12,441 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-01 20:24:12,791 - app.services.ml_service - INFO - Model loaded successfully
+2025-07-01 20:24:12,792 - app.services.ml_service - INFO - Loaded 94 class labels
+2025-07-01 20:24:12,792 - app.services.ml_service - INFO - Model input shape: (None, 128, 128, 3)
+2025-07-01 20:24:12,792 - app.services.ml_service - INFO - ML Service initialized with 94 classes
+2025-07-01 20:24:12,792 - app.main - INFO - Model loaded successfully
+2025-07-01 20:24:12,792 - app.main - INFO - SignSafe API startup complete
+2025-07-01 20:25:11,037 - app.main - INFO - Starting SignSafe API...
+2025-07-01 20:25:11,038 - app.main - INFO - Model path: data/models/sign_language_model.h5
+2025-07-01 20:25:11,039 - app.main - INFO - Labels path: data/labels/class_index.json
+2025-07-01 20:25:11,039 - app.main - INFO - Loading ML model...
+2025-07-01 20:25:11,040 - app.services.ml_service - INFO - Loading model from: data/models/sign_language_model.h5
+2025-07-01 20:25:11,649 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-01 20:25:11,663 - app.services.ml_service - INFO - Model loaded successfully
+2025-07-01 20:25:11,663 - app.services.ml_service - INFO - Loaded 94 class labels
+2025-07-01 20:25:11,664 - app.services.ml_service - INFO - Model input shape: (None, 128, 128, 3)
+2025-07-01 20:25:11,664 - app.services.ml_service - INFO - ML Service initialized with 94 classes
+2025-07-01 20:25:11,664 - app.main - INFO - Model loaded successfully
+2025-07-01 20:25:11,664 - app.main - INFO - SignSafe API startup complete
+2025-07-02 19:14:08,710 - app.main - INFO - Starting SignSafe API...
+2025-07-02 19:14:08,720 - app.main - INFO - Model path: data/models/sign_language_model.h5
+2025-07-02 19:14:08,720 - app.main - INFO - Labels path: data/labels/class_index.json
+2025-07-02 19:14:08,721 - app.main - INFO - Loading ML model...
+2025-07-02 19:14:08,721 - app.services.ml_service - INFO - Loading model from: data/models/sign_language_model.h5
+2025-07-02 19:14:10,035 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-02 19:14:10,537 - app.services.ml_service - INFO - Model loaded successfully
+2025-07-02 19:14:10,538 - app.services.ml_service - INFO - Loaded 94 class labels
+2025-07-02 19:14:10,539 - app.services.ml_service - INFO - Model input shape: (None, 128, 128, 3)
+2025-07-02 19:14:10,540 - app.services.ml_service - INFO - ML Service initialized with 94 classes
+2025-07-02 19:14:10,540 - app.main - INFO - Model loaded successfully
+2025-07-02 19:14:10,540 - app.main - INFO - SignSafe API startup complete
+2025-07-02 19:23:16,646 - app.routers.prediction - INFO - WebSocket disconnected
+2025-07-02 19:23:41,188 - app.routers.prediction - INFO - WebSocket disconnected
+2025-07-02 19:23:56,149 - app.routers.prediction - INFO - WebSocket disconnected
+2025-07-02 19:24:04,593 - app.routers.prediction - INFO - WebSocket disconnected
+2025-07-02 19:24:17,212 - app.routers.prediction - INFO - WebSocket disconnected
+2025-07-02 19:51:14,557 - app.main - INFO - Starting SignSafe API...
+2025-07-02 19:51:14,557 - app.main - INFO - Model path: data/models/sign_language_model.h5
+2025-07-02 19:51:14,557 - app.main - INFO - Labels path: data/labels/class_index.json
+2025-07-02 19:51:14,558 - app.main - INFO - Loading ML model...
+2025-07-02 19:51:14,558 - app.services.ml_service - INFO - Loading model from: data/models/sign_language_model.h5
+2025-07-02 19:51:15,982 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-02 19:51:16,250 - app.services.ml_service - INFO - Model loaded successfully
+2025-07-02 19:51:16,250 - app.services.ml_service - INFO - Loaded 94 class labels
+2025-07-02 19:51:16,251 - app.services.ml_service - INFO - Model input shape: (None, 128, 128, 3)
+2025-07-02 19:51:16,251 - app.services.ml_service - INFO - ML Service initialized with 94 classes
+2025-07-02 19:51:16,251 - app.main - INFO - Model loaded successfully
+2025-07-02 19:51:16,251 - app.main - INFO - SignSafe API startup complete
+2025-07-02 19:56:28,592 - app.routers.prediction - INFO - WebSocket disconnected
+2025-07-02 19:56:58,755 - app.routers.prediction - INFO - WebSocket disconnected
+2025-07-02 19:58:53,353 - app.main - INFO - Shutting down SignSafe API...
+2025-07-02 19:59:02,618 - app.main - INFO - Starting SignSafe API...
+2025-07-02 19:59:02,620 - app.main - INFO - Model path: data/models/sign_language_model.h5
+2025-07-02 19:59:02,622 - app.main - INFO - Labels path: data/labels/class_index.json
+2025-07-02 19:59:02,626 - app.main - INFO - Loading ML model...
+2025-07-02 19:59:02,630 - app.services.ml_service - INFO - Loading model from: data/models/sign_language_model.h5
+2025-07-02 19:59:02,994 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-02 19:59:03,028 - app.services.ml_service - INFO - Model loaded successfully
+2025-07-02 19:59:03,029 - app.services.ml_service - INFO - Loaded 94 class labels
+2025-07-02 19:59:03,029 - app.services.ml_service - INFO - Model input shape: (None, 128, 128, 3)
+2025-07-02 19:59:03,030 - app.services.ml_service - INFO - ML Service initialized with 94 classes
+2025-07-02 19:59:03,030 - app.main - INFO - Model loaded successfully
+2025-07-02 19:59:03,030 - app.main - INFO - SignSafe API startup complete
+2025-07-02 19:59:53,837 - app.main - INFO - Shutting down SignSafe API...
+2025-07-02 20:00:14,854 - app.main - INFO - Starting SignSafe API...
+2025-07-02 20:00:14,855 - app.main - INFO - Model path: data/models/sign_language_model.h5
+2025-07-02 20:00:14,855 - app.main - INFO - Labels path: data/labels/class_index.json
+2025-07-02 20:00:14,855 - app.main - INFO - Loading ML model...
+2025-07-02 20:00:14,857 - app.services.ml_service - INFO - Loading model from: data/models/sign_language_model.h5
+2025-07-02 20:00:15,448 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-02 20:00:15,462 - app.services.ml_service - INFO - Model loaded successfully
+2025-07-02 20:00:15,463 - app.services.ml_service - INFO - Loaded 94 class labels
+2025-07-02 20:00:15,463 - app.services.ml_service - INFO - Model input shape: (None, 128, 128, 3)
+2025-07-02 20:00:15,464 - app.services.ml_service - INFO - ML Service initialized with 94 classes
+2025-07-02 20:00:15,464 - app.main - INFO - Model loaded successfully
+2025-07-02 20:00:15,464 - app.main - INFO - SignSafe API startup complete
+2025-07-02 20:05:22,276 - app.routers.prediction - INFO - WebSocket disconnected
+2025-07-02 20:05:48,201 - app.routers.prediction - INFO - WebSocket disconnected
+2025-07-02 20:29:55,049 - app.routers.prediction - INFO - WebSocket disconnected
+2025-07-02 20:30:09,621 - app.routers.prediction - INFO - WebSocket disconnected
+2025-07-04 23:15:31,389 - app.main - INFO - Starting SignSafe API...
+2025-07-04 23:15:31,438 - app.main - INFO - Model path: data/models/sign_language_model.h5
+2025-07-04 23:15:31,438 - app.main - INFO - Labels path: data/labels/class_index.json
+2025-07-04 23:15:31,439 - app.main - INFO - Loading ML model...
+2025-07-04 23:15:31,439 - app.services.ml_service - INFO - Loading model from: data/models/sign_language_model.h5
+2025-07-04 23:15:32,913 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-04 23:15:32,984 - app.services.ml_service - INFO - Model loaded successfully
+2025-07-04 23:15:33,009 - app.services.ml_service - INFO - Loaded 94 class labels
+2025-07-04 23:15:33,012 - app.services.ml_service - INFO - Model input shape: (None, 128, 128, 3)
+2025-07-04 23:15:33,015 - app.services.ml_service - INFO - ML Service initialized with 94 classes
+2025-07-04 23:15:33,017 - app.main - INFO - Model loaded successfully
+2025-07-04 23:15:33,018 - app.main - INFO - SignSafe API startup complete
+2025-07-04 23:46:15,737 - app.main - INFO - Starting SignSafe API...
+2025-07-04 23:46:15,760 - app.main - INFO - Model path: data/models/sign_language_model.h5
+2025-07-04 23:46:15,761 - app.main - INFO - Labels path: data/labels/class_index.json
+2025-07-04 23:46:15,762 - app.main - INFO - Loading ML model...
+2025-07-04 23:46:15,762 - app.services.ml_service - INFO - Loading model from: data/models/sign_language_model.h5
+2025-07-04 23:46:16,963 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-04 23:46:17,024 - app.services.ml_service - INFO - Model loaded successfully
+2025-07-04 23:46:17,043 - app.services.ml_service - INFO - Loaded 94 class labels
+2025-07-04 23:46:17,046 - app.services.ml_service - INFO - Model input shape: (None, 128, 128, 3)
+2025-07-04 23:46:17,047 - app.services.ml_service - INFO - ML Service initialized with 94 classes
+2025-07-04 23:46:17,047 - app.main - INFO - Model loaded successfully
+2025-07-04 23:46:17,047 - app.main - INFO - SignSafe API startup complete
+2025-07-04 23:47:24,565 - app.routers.prediction - INFO - WebSocket disconnected
+2025-07-04 23:47:54,543 - app.routers.prediction - INFO - WebSocket disconnected
+2025-07-04 23:49:54,103 - app.routers.prediction - INFO - WebSocket disconnected
+2025-07-04 23:50:52,718 - app.routers.prediction - INFO - WebSocket disconnected
+2025-07-05 01:49:47,594 - app.main - INFO - Starting SignSafe API...
+2025-07-05 01:49:47,644 - app.main - INFO - Model path: data/models/sign_language_model.h5
+2025-07-05 01:49:47,644 - app.main - INFO - Labels path: data/labels/class_index.json
+2025-07-05 01:49:47,645 - app.main - INFO - Loading ML model...
+2025-07-05 01:49:47,645 - app.services.ml_service - INFO - Loading model from: data/models/sign_language_model.h5
+2025-07-05 01:49:48,714 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-05 01:49:48,794 - app.services.ml_service - INFO - Model loaded successfully
+2025-07-05 01:49:48,821 - app.services.ml_service - INFO - Loaded 94 class labels
+2025-07-05 01:49:48,821 - app.services.ml_service - INFO - Model input shape: (None, 128, 128, 3)
+2025-07-05 01:49:48,821 - app.services.ml_service - INFO - ML Service initialized with 94 classes
+2025-07-05 01:49:48,821 - app.main - INFO - Model loaded successfully
+2025-07-05 01:49:48,822 - app.main - INFO - SignSafe API startup complete
+2025-07-05 01:50:13,300 - app.routers.prediction - INFO - WebSocket disconnected
+2025-07-05 01:50:35,410 - app.routers.prediction - INFO - WebSocket disconnected
+2025-07-05 01:58:26,741 - app.main - INFO - Shutting down SignSafe API...
+2025-07-05 02:00:35,205 - app.main - INFO - Starting SignSafe API...
+2025-07-05 02:00:35,221 - app.main - INFO - Model path: data/models/sign_language_model.h5
+2025-07-05 02:00:35,222 - app.main - INFO - Labels path: data/labels/class_index.json
+2025-07-05 02:00:35,222 - app.main - INFO - Loading ML model...
+2025-07-05 02:00:35,224 - app.services.ml_service - INFO - Loading model from: data/models/sign_language_model.h5
+2025-07-05 02:00:36,975 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-05 02:00:37,150 - app.services.ml_service - INFO - Model loaded successfully
+2025-07-05 02:00:37,188 - app.services.ml_service - INFO - Loaded 94 class labels
+2025-07-05 02:00:37,189 - app.services.ml_service - INFO - Model input shape: (None, 128, 128, 3)
+2025-07-05 02:00:37,189 - app.services.ml_service - INFO - ML Service initialized with 94 classes
+2025-07-05 02:00:37,189 - app.main - INFO - Model loaded successfully
+2025-07-05 02:00:37,190 - app.main - INFO - SignSafe API startup complete
+2025-07-05 02:01:32,348 - app.main - INFO - Shutting down SignSafe API...
