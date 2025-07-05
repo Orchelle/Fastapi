@@ -20,30 +20,31 @@ class MLModelService:
     def load_model(self) -> bool:
         """
         Load the trained model and class labels
-        
+
         Returns:
             True if model loaded successfully, False otherwise
         """
         try:
             # Check if model file exists
             if not settings.model_exists:
-                logger.error(f"Model file not found: {settings.model_path}")
+                logger.warning(f"Model file not found: {settings.model_path}")
+                logger.info("Running in deployment mode without model - API will be available for health checks")
                 return False
-            
+
             # Load the model
             logger.info(f"Loading model from: {settings.model_path}")
             # Load the model using TensorFlow's load_model function
             self.model = tf.saved_model.load(settings.model_path) if settings.model_path.endswith('.pb') else tf.keras.models.load_model(settings.model_path)  # type: ignore
             logger.info("Model loaded successfully")
-            
+
             # Load class labels
             if not self._load_class_labels():
                 logger.error("Failed to load class labels")
                 return False
-            
+
             # Verify model input shape
             self._verify_model_input_shape()
-            
+
             self.model_loaded = True
             logger.info(f"ML Service initialized with {len(self.class_labels)} classes")
             return True

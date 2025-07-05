@@ -93,12 +93,21 @@ async def root():
 @app.get("/health")
 async def health_check():
     """Health check endpoint for deployment platforms"""
+    import datetime
     return {
         "status": "healthy",
         "service": "SignSafe API",
+        "version": settings.api_version,
         "model_loaded": ml_service.is_model_loaded(),
-        "timestamp": "2025-01-05T00:00:00Z"
+        "model_path_exists": settings.model_exists,
+        "labels_path_exists": settings.labels_exist,
+        "timestamp": datetime.datetime.utcnow().isoformat() + "Z"
     }
+
+@app.get("/test")
+async def test_endpoint():
+    """Simple test endpoint that always works"""
+    return {"message": "API is working!", "status": "ok"}
 
 # Global exception handler
 @app.exception_handler(Exception)
